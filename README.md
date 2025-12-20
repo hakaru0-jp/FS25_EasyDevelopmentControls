@@ -1,6 +1,6 @@
 # Easy Development Controls for Farming Simulator 25
 
-`Farming Simulator  25`&nbsp;&nbsp;&nbsp;&nbsp;`Revision:  FS25-01`&nbsp;&nbsp;&nbsp;&nbsp;`Game Version:  1.9.0.1`
+`Farming Simulator  25`&nbsp;&nbsp;&nbsp;&nbsp;`Revision:  FS25-03`&nbsp;&nbsp;&nbsp;&nbsp;`Game Version:  1.15.0.0`
 
 ## About
 Farming Simulator 25 Mod Testing and Content Creator tools with a simple to use GUI. :tractor:

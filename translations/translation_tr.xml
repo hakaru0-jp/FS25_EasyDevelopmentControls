@@ -318,7 +318,7 @@ En iyi sonuçlar için aracın x/z düzlemine paralel olan düz bir düzlemde ko
         <text name="easyDevControls_resetFovAngleInfo" text="Görüş alanına sıfırlandı %d°."/>
         <text name="easyDevControls_setQualityInfo" text="%s kalite seti."/>
         <text name="easyDevControls_extraTimescalesInfo" text="Ekstra zaman ölçekleri %s"/>
-        <text name="easyDevControls_stopTimeInfo" text="Ekstra zaman sıfırlandı."/>
+        <text name="easyDevControls_stopTimeInfo" text="Zaman %s olarak ayarlandı."/> <!-- Google Translate -->
         <text name="easyDevControls_clearI3DCacheInfo" text="Tüm çevre i3d dosyaları silindi."/>
         <text name="easyDevControls_reloadStoreItemsInfo" text="%s mağaza öğesi başarıyla yeniden yüklendi."/> <!-- Google Translate -->
 
@@ -469,6 +469,7 @@ Red: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy readi
         <text name="easyDevControls_toggleCoverTitle" text="Kapağı Aç/Kapat"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Ürün Seviyesi"/>
         <text name="easyDevControls_fillUnitIndex" text="Ürün %s"/>
+        <text name="easyDevControls_wetnessDebugTitle" text="Islaklık Hata Ayıklama"/>  <!-- Online Translation -->
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="%s durumu güncellendi."/>
@@ -485,6 +486,7 @@ Red: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy readi
         <text name="easyDevControls_toggleCoverInfo" text="%s kapsama alanı olmayan bir alan %s, durum kimliği %s."/>
         <text name="easyDevControls_setFillUnitFillLevelInfo" text="%s ila %s miktarında %s başarılı dolum ve %s dolumlar."/>
         <text name="easyDevControls_setFillUnitEmptyInfo" text="%s, %s sayısıyla kaldırıldı."/>
+        <text name="easyDevControls_wetnessDebugInfo" text="Islaklık hata ayıklama şu anda %s"/> <!-- Online Translation -->
 
         <!-- Vehicles Frame Help -->
         <text name="easyDevControls_vehicleConditionHelp" text="Adds, removes or sets the selected condition percentage to an 'entered vehicle and all implements' or a 'single vehicle' in range of the player."/>
@@ -505,6 +507,8 @@ States 1 to 10: Vehicle specific states for testing."/> <!-- Translators: Space 
         <text name="easyDevControls_setPowerConsumerHelp" text="Sets the following properties of the powerConsumer specialisation."/>
         <text name="easyDevControls_toggleCoverHelp" text="Toggles the cover of a selected vehicle when entered or a vehicle in range of the player."/>
         <text name="easyDevControls_fillUnitFillLevelHelp" text="Updates a fillUnit with the given fill level and fillType."/>
+        <text name="easyDevControls_wetnessDebugHelp" text="Islaklık hata ayıklama modunu açar/kapatır.
+Not: Hata ayıklama durumunu göstermek/gizlemek veya mağazada görüntülemek için araçların yeniden yüklenmesi gerekebilir."/> <!-- Online Translation -->
 
         <!-- Placeable Frame XML -->
         <text name="easyDevControls_placeablesHeader" text="Yerleştirelebilir"/>

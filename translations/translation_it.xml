@@ -37,8 +37,8 @@ Tutti i binding di input possono essere configurati tramite la schermata dei con
         <!-- Misc (FS25) -->
         <text name="easyDevControls_resetPageSuccess" text="I comandi di pagina sono stati ripristinati..." revision="fs25"/>
         <text name="easyDevControls_squareMeterShort" text="m²" revision="fs25"/>
-        <text name="easyDevControls_typeTree" text="abero" revision="fs25"/>
-        <text name="easyDevControls_typeTrees" text="aberi" revision="fs25"/>
+        <text name="easyDevControls_typeTree" text="albero" revision="fs25"/>
+        <text name="easyDevControls_typeTrees" text="alberi" revision="fs25"/>
         <text name="easyDevControls_placeholderEnterAmount" text="Inserire importo" revision="fs25"/>
         <text name="easyDevControls_placeholderEnterCoordinates" text="Inserire le coordinate" revision="fs25"/>
         <text name="easyDevControls_decoration" text="Decorazione" revision="fs25"/>
@@ -318,7 +318,7 @@ Per ottenere risultati ottimali, assicurarsi che il veicolo sia posizionato su u
         <text name="easyDevControls_resetFovAngleInfo" text="Campo visivo ripristinato al valore predefinito %d°."/>
         <text name="easyDevControls_setQualityInfo" text="Set di qualità %s."/>
         <text name="easyDevControls_extraTimescalesInfo" text="Tempo extra %s"/>
-        <text name="easyDevControls_stopTimeInfo" text="I tempi sono stati impostati a zero."/>
+        <text name="easyDevControls_stopTimeInfo" text="I tempi sono stati impostati a %s."/>
         <text name="easyDevControls_clearI3DCacheInfo" text="Eliminati tutti i file i3d condivisi."/>
         <text name="easyDevControls_reloadStoreItemsInfo" text="Hai ricaricato con successo %s oggetti del negozio."/>
 
@@ -377,6 +377,7 @@ Nota: la funzione è disponibile solo per gli 'Amministratori!'"/>
         <text name="easyDevControls_superStrengthHelp" text="Attiva/Disattiva la funzione di super forza ed estende il raggio di raccolta del giocatore."/>
         <text name="easyDevControls_jumpMultiplierHelp" text="Aumenta l’altezza del salto del giocatore applicando il moltiplicatore selezionato."/>
         <text name="easyDevControls_thirdPersonViewHelp" text="Alterna la visuale in terza persona del giocatore.
+
 Nota: questa modalità è progettata per le schermate e non tutte le funzioni del gioco, come ad esempio gli 'Strumenti manuali' funzionano correttamente quando sono abilitate."/> <!-- Translators: Space is intentional for easy reading -->
         <text name="easyDevControls_woodCuttingMarkerHelp" text="Alternates the visibility of the wood cutting indicator with the chainsaw."/>
         <text name="easyDevControls_aimOverlayHelp" text="Alterna la visibilità dell'indicatore di mira."/>
@@ -430,9 +431,11 @@ Nota: questa modalità è progettata per le schermate e non tutte le funzioni de
         <text name="easyDevControls_clearTipAreaHelp" text="Cancella 'tutto' o un 'selezionato' fillType dal terreno nel raggio dato."/>
         <text name="easyDevControls_showTipCollisionsHelp" text="Visualizza le seguenti collisioni con la punta del terreno.
 
-Verde: Vettori di bit &lt;= 0
-Blu: Vettori di bit &gt; 0 o &lt;= 1
-Rosso: Vettori di bit &gt; 1"/> <!-- Translators: Space is intentional for easy reading. See note at top of page regarding &gt; and &lt; usage -->
+Verde: 0
+Blu: 1
+Rosso: 2
+
+Nota: Abilita la vista debug (F5) per visualizzare le informazioni sulle collisioni."/> <!-- Translators: Space is intentional for easy reading. -->
         <text name="easyDevControls_removeAllBalesHelp" text="Rimuove tutte le balle dalla mappa!"/>
         <text name="easyDevControls_removeAllPalletsHelp" text="Rimuove tutti i pallet dalla mappa!"/>
         <text name="easyDevControls_removeAllLogsHelp" text="Rimuove tutti i trochi dalla mappa!"/>
@@ -468,6 +471,7 @@ Rosso: Vettori di bit &gt; 1"/> <!-- Translators: Space is intentional for easy 
         <text name="easyDevControls_toggleCoverTitle" text="Coperchio a levetta"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Riempi livello"/>
         <text name="easyDevControls_fillUnitIndex" text="Unità di riempimento %s"/>
+        <text name="easyDevControls_wetnessDebugTitle" text="Debug dell'umidità"/>
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="La condizione di %s è stata aggiornata."/>
@@ -484,6 +488,7 @@ Rosso: Vettori di bit &gt; 1"/> <!-- Translators: Space is intentional for easy 
         <text name="easyDevControls_toggleCoverInfo" text="La copertura %s è ora %s, stato id %s."/>
         <text name="easyDevControls_setFillUnitFillLevelInfo" text="Impostazione riuscita dell'unità di riempimento %s di %s su %s con un livello di riempimento di %s."/>
         <text name="easyDevControls_setFillUnitEmptyInfo" text="Svuotata con successo l'unità di riempimento %s di %s."/>
+        <text name="easyDevControls_wetnessDebugInfo" text="Il debug della umidità è ora %s"/>
 
         <!-- Vehicles Frame Help -->
         <text name="easyDevControls_vehicleConditionHelp" text="Aggiunge, rimuove o imposta la percentuale di condizione selezionata a un 'veicolo inserito e tutti gli attrezzi' o a un 'singolo veicolo' nel raggio d'azione del giocatore."/>
@@ -504,6 +509,8 @@ Stati da 1 a 10: stati specifici del veicolo per il test."/> <!-- Translators: S
         <text name="easyDevControls_setPowerConsumerHelp" text="Imposta le seguenti proprietà della specializzazione powerConsumer."/>
         <text name="easyDevControls_toggleCoverHelp" text="Alterna la copertura di un veicolo selezionato quando entra o di un veicolo nel raggio d'azione del giocatore."/>
         <text name="easyDevControls_fillUnitFillLevelHelp" text="Aggiorna una fillUnit con il livello di riempimento e il fillType indicati."/>
+        <text name="easyDevControls_wetnessDebugHelp" text="Attiva la modalità debug della bagnatura.
+Nota: I veicoli potrebbero dover essere ricaricati per mostrare/nascondere lo stato di debug o visualizzati nello store."/>
 
         <!-- Placeable Frame XML -->
         <text name="easyDevControls_placeablesHeader" text="Luoghi"/>
@@ -606,9 +613,11 @@ Livello di riempimento:
 
         <text name="easyDevControls_advanceGrowthInfo" text="La crescita in tutti i campi è passata alla fase successiva."/>
         <text name="easyDevControls_advanceGrowthWarning" text="L'avanzamento dello stadio di crescita è disponibile solo quando l'impostazione di gioco '%s' è impostata su 'No'.
+
 Volete cambiare l'impostazione attuale da '%s' a 'No' per poter eseguire questa azione?"/> <!-- Translators: Space is intentional for easy reading -->
         <text name="easyDevControls_setGrowthPeriodInfo" text="Periodo di crescita su tutti i campi aggiornato a %s (%s)."/>
         <text name="easyDevControls_setGrowthPeriodWarning" text="L'impostazione del periodo di crescita non è disponibile quando l'impostazione del gioco '%s' è impostata su '%s'.
+
 Volete cambiare l'impostazione in 'No' per poter eseguire questa azione?"/> <!-- Translators: Space is intentional for easy reading -->
         <text name="easyDevControls_addWeedOrStoneDelta" text="Aumenta il delta %s di %s."/>
         <text name="easyDevControls_removeWeedOrStoneDelta" text="Diminuisci il delta %s di %s."/>
@@ -673,6 +682,7 @@ Volete cambiare l'impostazione in 'No' per poter eseguire questa azione?"/> <!--
 
         <!-- Environment Frame Help -->
         <text name="easyDevControls_setTimeHelp" text="Consente di avanzare l'ora per mese, giorni per mese e ora.
+
 NOTA: Durante questo processo non vengono richiamati ascoltatori di modifiche di aggiornamento e alcune modifiche stagionali si verificano solo al cambio di giorno."/> <!-- Translators: Space is intentional for easy reading -->
         <text name="easyDevControls_reloadedEnvironmentDataHelp" text="Ricarica l'ambiente completo dal file XML. Ciò consente di apportare e visualizzare le modifiche senza riavviare il gioco durante il test delle mappe."/>
 
@@ -708,13 +718,13 @@ La maggior parte delle funzioni supporta l'uso in multiplayer e i livelli di aut
 
 Sono state aggiunte anche alcune funzioni per la qualità della vita.
 
-     - Teletrasporto: Spostare rapidamente se stessi o i veicoli sulla mappa selezionando una posizione sulla mappa, per numero di campo o coordinate x/z.
-     - Capovolgere i veicoli: Permette all'utente di correggere facilmente la rotazione verticale di un veicolo.
-     - Super forza: Aumenta la capacità di carico e il raggio d'azione di un giocatore.
-     - Visibilità Hud: Mostra e nasconde l'intero hud; è anche possibile attivare un collegamento a tasti per un accesso più rapido.
-     - Mostra posizione delle balle: Mostra tutte le balle di proprietà della fattoria sulla mappa.
-     - Mostra posizioni pallet: Mostra tutti i pallet della fattoria sulla mappa.
-     - Avanzamento della crescita: Fa avanzare tutte le colture allo stadio di crescita successivo.
+  - Teletrasporto: Spostare rapidamente se stessi o i veicoli sulla mappa selezionando una posizione sulla mappa, per numero di campo o coordinate x/z.
+  - Capovolgere i veicoli: Permette all'utente di correggere facilmente la rotazione verticale di un veicolo.
+  - Super forza: Aumenta la capacità di carico e il raggio d'azione di un giocatore.
+  - Visibilità Hud: Mostra e nasconde l'intero hud; è anche possibile attivare un collegamento a tasti per un accesso più rapido.
+  - Mostra posizione delle balle: Mostra tutte le balle di proprietà della fattoria sulla mappa.
+  - Mostra posizioni pallet: Mostra tutti i pallet della fattoria sulla mappa.
+  - Avanzamento della crescita: Fa avanzare tutte le colture allo stadio di crescita successivo.
 
 Grazie al numero esteso di funzioni e alle numerose novità previste, Easy Development Controls ha qualcosa per tutti."/>
     </texts>

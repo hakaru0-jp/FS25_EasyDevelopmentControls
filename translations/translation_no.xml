@@ -318,7 +318,7 @@ Sørg for at kjøretøyet er plassert på et flatt plan som er parallelt med x/z
         <text name="easyDevControls_resetFovAngleInfo" text="Synsfelt tilbakestilt til standardverdi %d°."/>
         <text name="easyDevControls_setQualityInfo" text="%s kvalitet satt."/>
         <text name="easyDevControls_extraTimescalesInfo" text="Ekstra tidskala %s"/>
-        <text name="easyDevControls_stopTimeInfo" text="Tidsskalaen er satt til null."/>
+        <text name="easyDevControls_stopTimeInfo" text="Tidsskalaen er satt til %s."/>
         <text name="easyDevControls_clearI3DCacheInfo" text="Slettet alle delte i3d filer."/>
         <text name="easyDevControls_reloadStoreItemsInfo" text="Lastet %s gjenstander på nytt."/>
 
@@ -469,6 +469,7 @@ Rød: Bitvektorer &gt; 1"/> <!-- Translators: Space is intentional for easy read
         <text name="easyDevControls_toggleCoverTitle" text="Slå På Dekselet"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Fyllnivå"/>
         <text name="easyDevControls_fillUnitIndex" text="Fyll Enhet %s"/>
+        <text name="easyDevControls_wetnessDebugTitle" text="Feilsøking av fuktighet"/> <!-- Online Translation -->
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="Tilstanden til %s har blitt oppdatert."/>
@@ -485,6 +486,7 @@ Rød: Bitvektorer &gt; 1"/> <!-- Translators: Space is intentional for easy read
         <text name="easyDevControls_toggleCoverInfo" text="%s dekselet er nå %s, tilstands id %s."/>
         <text name="easyDevControls_setFillUnitFillLevelInfo" text="Vellykket satt fyllenhet %s av %s til %s med et fyllingsnivå på %s."/>
         <text name="easyDevControls_setFillUnitEmptyInfo" text="Tømte påfyllingsenheten %s av %s."/>
+        <text name="easyDevControls_wetnessDebugInfo" text="Feilsøking av fuktighet er nå %s"/> <!-- Online Translation -->
 
         <!-- Vehicles Frame Help -->
         <text name="easyDevControls_vehicleConditionHelp" text="Legger til, fjerner eller setter den valgte tilstandsprosenten til et 'kjøretøy du sitter i og alle redskaper' eller et 'enkelt kjøretøy' innenfor spillerens rekkevidde."/>
@@ -505,6 +507,8 @@ Status 1 til 10: Kjøretøyspesifikke tilstander for testing."/> <!-- Translator
         <text name="easyDevControls_setPowerConsumerHelp" text="Angir følgende egenskaper for powerConsumer spesialiseringen."/>
         <text name="easyDevControls_toggleCoverHelp" text="Aktiverer dekselet til et valgt kjøretøy når man sitter i den eller et kjøretøy innenfor spillerens rekkevidde."/>
         <text name="easyDevControls_fillUnitFillLevelHelp" text="Oppdaterer en fillUnit med gitt fyllnivå og fillType."/>
+        <text name="easyDevControls_wetnessDebugHelp" text="Slår våthetsfeilsøkingsmodus av og på.
+Merk: Det kan være nødvendig å laste inn kjøretøyene på nytt for å vise/skjule feilsøkingsstatus eller se dem i butikken."/> <!-- Online Translation -->
 
         <!-- Placeable Frame XML -->
         <text name="easyDevControls_placeablesHeader" text="Plasserbare gjenstander"/>

@@ -318,7 +318,7 @@ Certifique-se de que o veículo esteja posicionado em um plano paralelo ao plano
         <text name="easyDevControls_resetFovAngleInfo" text="Campo de visão redefinido para o valor padrão %d°."/>
         <text name="easyDevControls_setQualityInfo" text="%s conjunto de qualidade."/>
         <text name="easyDevControls_extraTimescalesInfo" text="Escalas de tempo extras %s"/>
-        <text name="easyDevControls_stopTimeInfo" text="A escala de tempo foi definida como zero."/>
+        <text name="easyDevControls_stopTimeInfo" text="A escala de tempo foi definida como %s."/>
         <text name="easyDevControls_clearI3DCacheInfo" text="Excluídos todos os arquivos i3d compartilhados."/>
         <text name="easyDevControls_reloadStoreItemsInfo" text="%s itens da loja recarregados com sucesso."/>
 
@@ -469,6 +469,7 @@ Vermelho: Bits de Vetores &gt; 1"/> <!-- Translators: Space is intentional for e
         <text name="easyDevControls_toggleCoverTitle" text="Alternar Cobertura"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Nível do Preenchimento"/>
         <text name="easyDevControls_fillUnitIndex" text="Unidade de Preenchimento %s"/>
+        <text name="easyDevControls_wetnessDebugTitle" text="Depuração dos Umidade"/> <!-- Online Translation -->
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="A condição do(a) %s foi atualizada."/>
@@ -485,6 +486,7 @@ Vermelho: Bits de Vetores &gt; 1"/> <!-- Translators: Space is intentional for e
         <text name="easyDevControls_toggleCoverInfo" text="O estado da cobertura do(a) %s agora é: %s. ID de estado %s."/>
         <text name="easyDevControls_setFillUnitFillLevelInfo" text="A unidade de preenchimento %s do(a) %s foi preenchida com sucesso de %s a um nível de %s."/>
         <text name="easyDevControls_setFillUnitEmptyInfo" text="A unidade de preenchimento %s do(a) %s foi esvaziado com sucesso."/>
+        <text name="easyDevControls_wetnessDebugInfo" text="A depuração da umidade agora é %s"/> <!-- Online Translation -->
 
         <!-- Vehicles Frame Help -->
         <text name="easyDevControls_vehicleConditionHelp" text="Adiciona, remove ou define a porcentagem da condição selecionada para um 'veículo inserido e todos os implementos' ou um 'veículo único' ao alcance do jogador."/>
@@ -505,6 +507,8 @@ Estados 1 a 10: Estados específicos do veículo para teste."/> <!-- Translators
         <text name="easyDevControls_setPowerConsumerHelp" text="Define as seguintes propriedades da especialização powerConsumer."/>
         <text name="easyDevControls_toggleCoverHelp" text="Alterna a cobertura de um veículo selecionado ao entrar ou de um veículo ao alcance do jogador."/>
         <text name="easyDevControls_fillUnitFillLevelHelp" text="Atualiza um fillUnit com o nível de preenchimento e fillType fornecidos."/>
+        <text name="easyDevControls_wetnessDebugHelp" text="Ativa ou desativa o modo de depuração de umidade.
+Observação: pode ser necessário recarregar os veículos para mostrar/ocultar o estado de depuração ou visualizá-los na loja."/> <!-- Online Translation -->
 
         <!-- Placeable Frame XML -->
         <text name="easyDevControls_placeablesHeader" text="Colocável"/>

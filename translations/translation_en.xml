@@ -318,7 +318,7 @@ Make sure vehicle is positioned on a flat plane that is parallel to x/z plane fo
         <text name="easyDevControls_resetFovAngleInfo" text="Field of view reset to default value %d°."/>
         <text name="easyDevControls_setQualityInfo" text="%s quality set."/>
         <text name="easyDevControls_extraTimescalesInfo" text="Extra timescales %s"/>
-        <text name="easyDevControls_stopTimeInfo" text="Timescale has been set to zero."/>
+        <text name="easyDevControls_stopTimeInfo" text="Timescale has been set to %s."/>
         <text name="easyDevControls_clearI3DCacheInfo" text="Deleted all shared i3d files."/>
         <text name="easyDevControls_reloadStoreItemsInfo" text="Successfully reloaded %s store items."/>
 
@@ -471,6 +471,7 @@ Note: Debug view (F5) must be enabled to render collision information."/> <!-- T
         <text name="easyDevControls_toggleCoverTitle" text="Toggle Cover"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Fill Level"/>
         <text name="easyDevControls_fillUnitIndex" text="Fill Unit %s"/>
+        <text name="easyDevControls_wetnessDebugTitle" text="Wetness Debug"/>
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="The condition of %s has been update."/>
@@ -487,6 +488,7 @@ Note: Debug view (F5) must be enabled to render collision information."/> <!-- T
         <text name="easyDevControls_toggleCoverInfo" text="%s cover is now %s, state id %s."/>
         <text name="easyDevControls_setFillUnitFillLevelInfo" text="Successfully set fill unit %s of %s to %s with a fill level of %s."/>
         <text name="easyDevControls_setFillUnitEmptyInfo" text="Successfully emptied fill unit %s of %s."/>
+        <text name="easyDevControls_wetnessDebugInfo" text="Wetness debugging is now %s"/>
 
         <!-- Vehicles Frame Help -->
         <text name="easyDevControls_vehicleConditionHelp" text="Adds, removes or sets the selected condition percentage to an 'entered vehicle and all implements' or a 'single vehicle' in range of the player."/>
@@ -507,6 +509,8 @@ States 1 to 10: Vehicle specific states for testing."/> <!-- Translators: Space 
         <text name="easyDevControls_setPowerConsumerHelp" text="Sets the following properties of the powerConsumer specialisation."/>
         <text name="easyDevControls_toggleCoverHelp" text="Toggles the cover of a selected vehicle when entered or a vehicle in range of the player."/>
         <text name="easyDevControls_fillUnitFillLevelHelp" text="Updates a fillUnit with the given fill level and fillType."/>
+        <text name="easyDevControls_wetnessDebugHelp" text="Toggles the wetness debug mode.
+Note: Vehicles may need to be reloaded to show/hide debug state or viewed in the store."/>
 
         <!-- Placeable Frame XML -->
         <text name="easyDevControls_placeablesHeader" text="Placeables"/>

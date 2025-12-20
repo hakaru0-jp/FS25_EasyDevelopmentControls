@@ -318,7 +318,7 @@ Pro dosažení nejlepších výsledků se ujistěte, že je vozidlo umístěno n
         <text name="easyDevControls_resetFovAngleInfo" text="Zorné pole bylo resetováno na výchozí hodnotu %d°."/>
         <text name="easyDevControls_setQualityInfo" text="%s kvalita nastavena."/>
         <text name="easyDevControls_extraTimescalesInfo" text="Extra časové osy %s"/>
-        <text name="easyDevControls_stopTimeInfo" text="Časová osa byla nastavena na nulu."/>
+        <text name="easyDevControls_stopTimeInfo" text="Časová osa byla nastavena na %s."/>
         <text name="easyDevControls_clearI3DCacheInfo" text="Smazány všechny sdílené soubory i3d."/>
         <text name="easyDevControls_reloadStoreItemsInfo" text="Úspěšně načteno %s položek obchodu."/>
 
@@ -472,6 +472,7 @@ Modrá: Bit Vectors &gt; 0 or &lt;= 1
         <text name="easyDevControls_toggleCoverTitle" text="Přepnout kryt"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Úroveň plnění"/>
         <text name="easyDevControls_fillUnitIndex" text="Naplnit jednotku %s"/>
+        <text name="easyDevControls_wetnessDebugTitle" text="Debug Vlhkosť"/> <!-- Online Translation -->
 
         <!-- Informace o rámu vozidla -->
         <text name="easyDevControls_vehicleConditionInfo" text="Stav %s byl aktualizován."/>
@@ -488,6 +489,7 @@ Modrá: Bit Vectors &gt; 0 or &lt;= 1
         <text name="easyDevControls_toggleCoverInfo" text="%s kryt je nyní %s, stav id %s."/>
         <text name="easyDevControls_setFillUnitFillLevelInfo" text="Úspěšně nastavena jednotka plnění %s z %s na %s s úrovní plnění %s."/>
         <text name="easyDevControls_setFillUnitEmptyInfo" text="Úspěšně vyprázdněna plnicí jednotka %s z %s."/>
+        <text name="easyDevControls_wetnessDebugInfo" text="Ladění vlhkosti je nyní %s"/> <!-- Online Translation -->
 
         <!-- Nápověda k rámu vozidel -->
         <text name="easyDevControls_vehicleConditionHelp" text="Přidá, odebere nebo nastaví vybrané procento stavu na 'zadané vozidlo a všechna nářadí' nebo 'jedno vozidlo' v dosahu hráče."/>
@@ -510,6 +512,8 @@ Stavy 1 až 10: Specifické stavy vozidla pro testování."/>
         <text name="easyDevControls_setPowerConsumerHelp" text="Nastavuje následující vlastnosti specializace powerConsumer."/>
         <text name="easyDevControls_toggleCoverHelp" text="Přepne kryt vybraného vozidla při vstupu nebo vozidla v dosahu hráče."/>
         <text name="easyDevControls_fillUnitFillLevelHelp" text="Aktualizuje fillUnit s danou úrovní naplnění a fillType."/>
+        <text name="easyDevControls_wetnessDebugHelp" text="Zapíná/vypíná režim ladění vlhkosti.
+Poznámka: Aby se stav ladění zobrazil/skryl nebo aby se zobrazil v obchodě, může být nutné vozidla znovu načíst."/> <!-- Online Translation -->
 
         <!-- Umístěný rámeček XML -->
         <text name="easyDevControls_placeablesHeader" text="Produkce / umístitelné objekty"/>

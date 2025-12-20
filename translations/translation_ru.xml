@@ -320,7 +320,7 @@
         <text name="easyDevControls_resetFovAngleInfo" text="Поле зрения сброшено до значения по умолчанию %d°."/>
         <text name="easyDevControls_setQualityInfo" text="Дальность прорисовки %s."/>
         <text name="easyDevControls_extraTimescalesInfo" text="Увеличенная шкала времени: %s"/>
-        <text name="easyDevControls_stopTimeInfo" text="Время остановлено."/>
+        <text name="easyDevControls_stopTimeInfo" text="Время установлено на %s."/> <!-- Online Translate -->
         <text name="easyDevControls_clearI3DCacheInfo" text="Кэш I3D очищен."/>
         <text name="easyDevControls_reloadStoreItemsInfo" text="Успешно перезагружено %s товаров в магазине."/>
 
@@ -471,6 +471,7 @@
         <text name="easyDevControls_toggleCoverTitle" text="Положение брезента"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Уровень заполнения"/>
         <text name="easyDevControls_fillUnitIndex" text="Содержание %s"/>
+        <text name="easyDevControls_wetnessDebugTitle" text="Отладка влажности"/> <!-- Online Translation -->
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="Статус %s обновлён."/>
@@ -487,6 +488,7 @@
         <text name="easyDevControls_toggleCoverInfo" text="Крышка %s теперь %s, идентификатор состояния %s."/>
         <text name="easyDevControls_setFillUnitFillLevelInfo" text="Успешное заполнение %s, %s - %s %s."/>
         <text name="easyDevControls_setFillUnitEmptyInfo" text="Успешно опорожнено %s ёмкость %s."/>
+        <text name="easyDevControls_wetnessDebugInfo" text="Отладка влажности теперь составляет %s"/> <!-- Online Translation -->
 
         <!-- Vehicles Frame Help -->
         <text name="easyDevControls_vehicleConditionHelp" text="Добавляет, удаляет или устанавливает выбранный процент состояния транспортного средства и всех орудий, или одного транспортного средства в радиусе действия игрока."/>
@@ -507,6 +509,8 @@
         <text name="easyDevControls_setPowerConsumerHelp" text="Задает следующие свойства специализации «Потребления энергии»."/>
         <text name="easyDevControls_toggleCoverHelp" text="Переключает крышку управляемого транспортного средства или транспортного средства в радиусе действия игрока."/>
         <text name="easyDevControls_fillUnitFillLevelHelp" text="Изменяет уровень заполнения указанным типом наполнителя."/>
+        <text name="easyDevControls_wetnessDebugHelp" text="Включает/выключает режим отладки влажности.
+Примечание: для отображения/скрытия состояния отладки может потребоваться перезагрузка транспортных средств или просмотр в магазине."/> <!-- Online Translation -->
 
         <!-- Placeable Frame XML -->
         <text name="easyDevControls_placeablesHeader" text="Размещаемые объекты"/>

@@ -118,9 +118,9 @@
 
 		<!-- 加载错误 -->
 		<text name="easyDevControls_loadError" text="模组 %s（作者 %s）无法加载或不被支持！
-		为避免错误，应移除该模组！
+为避免错误，应移除该模组！
 
-		访问下方Giants模组中心下载链接获取最新官方版本。"/>
+访问下方Giants模组中心下载链接获取最新官方版本。"/>
 
 		<!-- 杂项 -->
 		<text name="easyDevControls_typePlaceables" text="可放置物"/>
@@ -262,7 +262,7 @@
 		<text name="easyDevControls_setPowerConsumerWarning" text="未选择工具或所选工具不是动力消耗设备！"/>
 		<text name="easyDevControls_vehicleAnalyseWarning" text="正在尝试分析所选车辆 '%s'。
 
-		请确保车辆位于与x/z平面平行的平面上，以获得最佳结果。"/>
+请确保车辆位于与x/z平面平行的平面上，以获得最佳结果。"/>
 		<text name="easyDevControls_vehicleAnalyseFailedWarning" text="分析车辆失败，未找到有效车辆或无车辆！"/>
 		<text name="easyDevControls_removeAllObjectsWarning" text="确定要从地图上移除所有 %s 吗？"/>
 		<text name="easyDevControls_modConflictWarning" text="由于与模组 '%s'（作者 %s）冲突，功能已禁用。"/>
@@ -318,7 +318,7 @@
 		<text name="easyDevControls_resetFovAngleInfo" text="视野已重置为默认值 %d°。"/>
 		<text name="easyDevControls_setQualityInfo" text="已设置 %s 质量。"/>
 		<text name="easyDevControls_extraTimescalesInfo" text="额外时间缩放 %s"/>
-		<text name="easyDevControls_stopTimeInfo" text="时间缩放已设置为零。"/>
+		<text name="easyDevControls_stopTimeInfo" text="时间缩放已设置为 %s。"/>
 		<text name="easyDevControls_clearI3DCacheInfo" text="已删除所有共享i3d文件。"/>
 		<text name="easyDevControls_reloadStoreItemsInfo" text="已成功重新加载 %s 个商店物品。"/>
 
@@ -334,7 +334,7 @@
 		<text name="easyDevControls_flipVehiclesHelp" text="尝试校正车辆及其连接工具的方向。此操作适用于已进入的车辆或当你看向有效车辆时。"/>
 		<text name="easyDevControls_deleteObjectsKeyHelp" text="切换'删除物体'输入绑定的可用性。这允许玩家删除他们正在看的树、木材、树桩、草捆、托盘或车辆。
 
-		注意：此功能仅对'主用户/管理员'可用！"/>
+注意：此功能仅对'主用户/管理员'可用！"/>
 		<text name="easyDevControls_setFOVAngleHelp" text="设置当前相机的'视野'(FOV)。使用'-1'或'重置按钮'将相机恢复到默认值。"/>
 		<text name="easyDevControls_setQualityHelp" text="调整以下设置以获得高质量截图或按需调整。"/>
 		<text name="easyDevControls_extraTimescalesHelp" text="切换以下额外时间缩放的可用性：%s。"/>
@@ -378,7 +378,7 @@
 		<text name="easyDevControls_jumpMultiplierHelp" text="通过添加选定的倍数来增加玩家的跳跃高度。"/>
 		<text name="easyDevControls_thirdPersonViewHelp" text="切换玩家第三人称视角。
 
-		注意：此模式专为截图设计，启用时并非所有游戏功能（如'手动工具'）都能正常运行。"/>
+注意：此模式专为截图设计，启用时并非所有游戏功能（如'手动工具'）都能正常运行。"/>
 		<text name="easyDevControls_woodCuttingMarkerHelp" text="切换链锯伐木标记的可见性。"/>
 		<text name="easyDevControls_aimOverlayHelp" text="切换瞄准标记的可见性。"/>
 		<text name="easyDevControls_runSpeedHelp" text="设置'增加跑步速度'为'开启'时使用的倍数。"/>
@@ -430,9 +430,11 @@
 		<text name="easyDevControls_tipToGroundHelp" text="将给定数量的填充类型倾倒到地面，长度为1至25米。"/>
 		<text name="easyDevControls_clearTipAreaHelp" text="从地面清除给定半径内的'所有'或'选定'填充类型。"/>
 		<text name="easyDevControls_showTipCollisionsHelp" text="显示以下地面倾倒碰撞
+
 		绿色: 0
 		蓝色: 1
 		红色: 2
+
 注意: 必须启用调试视图(F5)才能渲染碰撞信息。"/>
 		<text name="easyDevControls_removeAllBalesHelp" text="从地图上移除所有草捆！"/>
 		<text name="easyDevControls_removeAllPalletsHelp" text="从地图上移除所有托盘！"/>
@@ -469,6 +471,7 @@
 		<text name="easyDevControls_toggleCoverTitle" text="切换覆盖物"/>
 		<text name="easyDevControls_fillUnitFillLevelTitle" text="填充量"/>
 		<text name="easyDevControls_fillUnitIndex" text="填充单元 %s"/>
+		<text name="easyDevControls_wetnessDebugTitle" text="湿润度调试"/>
 
 		<!-- 车辆框架信息 -->
 		<text name="easyDevControls_vehicleConditionInfo" text="%s 的状态已更新。"/>
@@ -485,6 +488,7 @@
 		<text name="easyDevControls_toggleCoverInfo" text="%s 的覆盖物现在为 %s，状态ID为 %s。"/>
 		<text name="easyDevControls_setFillUnitFillLevelInfo" text="已成功将 %s 的填充单元 %s 设置为 %s，填充量为 %s。"/>
 		<text name="easyDevControls_setFillUnitEmptyInfo" text="已成功清空 %s 的填充单元 %s。"/>
+		<text name="easyDevControls_wetnessDebugInfo" text="湿润度调试现为 %s"/>
 
 		<!-- 车辆框架帮助 -->
 		<text name="easyDevControls_vehicleConditionHelp" text="为'已进入的车辆及其所有工具'或玩家范围内的'单个车辆'添加、移除或设置选定的状态百分比。"/>
@@ -493,9 +497,9 @@
 		<text name="easyDevControls_vehicleOperatingTimeHelp" text="设置已进入的车辆或玩家范围内车辆的运行时间。"/>
 		<text name="easyDevControls_globalWiperStateHelp" text="设置全局雨刷状态。
 
-		雨量传感器: 自动操作(标准)。
-		关闭: 在所有天气条件下禁用。
-		状态1至10: 用于测试的车辆特定状态。"/>
+雨量传感器: 自动操作(标准)。
+关闭: 在所有天气条件下禁用。
+状态1至10: 用于测试的车辆特定状态。"/>
 		<text name="easyDevControls_reloadVehicleHelp" text="重新加载当前已进入车辆及其所有连接工具的I3D和XML，或玩家范围内的单个车辆。"/>
 		<text name="easyDevControls_analyseVehicleHelp" text="分析已进入的选定车辆或玩家范围内的车辆。结果将打印到日志文件中。"/>
 		<text name="easyDevControls_vehicleDebugHelp" text="切换以下车辆调试值。"/>
@@ -505,6 +509,8 @@
 		<text name="easyDevControls_setPowerConsumerHelp" text="设置动力消耗设备特殊化的以下属性。"/>
 		<text name="easyDevControls_toggleCoverHelp" text="切换已进入的选定车辆或玩家范围内车辆的覆盖物。"/>
 		<text name="easyDevControls_fillUnitFillLevelHelp" text="使用给定的填充量和填充类型更新填充单元。"/>
+        <text name="easyDevControls_wetnessDebugHelp" text="切换湿润度调试模式。
+注意：车辆可能需要重新加载才能显示/隐藏调试状态，或需在商店中查看。"/>
 
 		<!-- 可放置物框架XML -->
 		<text name="easyDevControls_placeablesHeader" text="可放置物"/>
@@ -540,23 +546,23 @@
 		<!-- 可放置物框架帮助 -->
 		<text name="easyDevControls_productionPointHelp" text="允许对生产点进行以下更改。
 
-		类别：
-		  1. 所有NPC拥有
-		  2. 所有农场拥有
-		  3. 当前生产玩家触发器
-		  4. 单个ID
+类别：
+  1. 所有NPC拥有
+  2. 所有农场拥有
+  3. 当前生产玩家触发器
+  4. 单个ID
 
-		设置所有者：
-		  - 设置当前所有者。
+设置所有者：
+  - 设置当前所有者。
 
-		设置状态：
-		  - 设置每个生产线的单个或全局运行状态。
+设置状态：
+  - 设置每个生产线的单个或全局运行状态。
 
-		输出模式：
-		  - 将单个或全局输出模式设置为'分配'、'存储'或'销售'。
+输出模式：
+  - 将单个或全局输出模式设置为'分配'、'存储'或'销售'。
 
-		填充量：
-		  - 允许根据使用的类别类型，对单个或所有输入/输出产品进行填充量更改。根据选择的不同，可以输入升或百分比值。"/>
+填充量：
+  - 允许根据使用的类别类型，对单个或所有输入/输出产品进行填充量更改。根据选择的不同，可以输入升或百分比值。"/>
 		<text name="easyDevControls_productionPointListHelp" text="显示地图上的生产点列表以及以下信息。"/>
 		<text name="easyDevControls_deliveryMappingHelp" text="显示所有分配生产的当前交付映射信息。"/>
 		<text name="easyDevControls_productionPointDebugHelp" text="在每个玩家触发器处显示生产点调试信息。"/>
@@ -608,11 +614,11 @@
 		<text name="easyDevControls_advanceGrowthInfo" text="所有田地上的作物生长已推进到下一阶段。"/>
 		<text name="easyDevControls_advanceGrowthWarning" text="只有当游戏设置 '%s' 设置为'否'时，才能推进生长阶段。
 
-		是否要将当前设置从 '%s' 更改为'否'，以便执行此操作？"/>
+是否要将当前设置从 '%s' 更改为'否'，以便执行此操作？"/>
 		<text name="easyDevControls_setGrowthPeriodInfo" text="所有田地上的生长周期已更新为 %s (%s)。"/>
 		<text name="easyDevControls_setGrowthPeriodWarning" text="当游戏设置 '%s' 设置为 '%s' 时，无法设置生长周期。
 
-		是否要将设置更改为'否'，以便执行此操作？"/>
+是否要将设置更改为'否'，以便执行此操作？"/>
 		<text name="easyDevControls_addWeedOrStoneDelta" text="已将 %s 增量增加 %s。"/>
 		<text name="easyDevControls_removeWeedOrStoneDelta" text="已将 %s 增量减少 %s。"/>
 		<text name="easyDevControls_vineSetStateInfo" text="已将 %s %s 葡萄藤更新为生长状态 %s"/>

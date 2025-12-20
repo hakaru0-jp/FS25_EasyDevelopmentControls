@@ -319,7 +319,7 @@ Pour obtenir de meilleurs résultats, assurez-vous de le positionner sur un terr
         <text name="easyDevControls_resetFovAngleInfo" text="Champ de vision remis à la valeur par défaut %d°."/>
         <text name="easyDevControls_setQualityInfo" text="Qualité graphique définie à %s."/>
         <text name="easyDevControls_extraTimescalesInfo" text="Echelles supplémentaires de défilement du temps %s"/>
-        <text name="easyDevControls_stopTimeInfo" text="L'écoulement du temps est interrompu."/>
+        <text name="easyDevControls_stopTimeInfo" text="L'écoulement du temps fixé à %s."/> <!-- Online Translate -->
         <text name="easyDevControls_clearI3DCacheInfo" text="Tous les i3d partagés sont supprimés."/>
         <text name="easyDevControls_reloadStoreItemsInfo" text="%s articles du magasin rechargés avec succès store items."/>
 
@@ -470,6 +470,7 @@ Rouge: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy rea
         <text name="easyDevControls_toggleCoverTitle" text="Mettre la bâche"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Gestion du contenu"/>
         <text name="easyDevControls_fillUnitIndex" text="Contenant %s"/>
+        <text name="easyDevControls_wetnessDebugTitle" text="Débogage de l'humidité"/> <!-- Online Translation -->
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="L'état de %s a été mis à jour."/>
@@ -486,6 +487,7 @@ Rouge: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy rea
         <text name="easyDevControls_toggleCoverInfo" text="La bâche de %s est actuellement %s, id de l'état %s."/>
         <text name="easyDevControls_setFillUnitFillLevelInfo" text="Le contenant %s de %s rempli avec succès de %s dans la quantité suivante : %s."/>
         <text name="easyDevControls_setFillUnitEmptyInfo" text="Le contenant %s de %s vidé avec succès."/>
+        <text name="easyDevControls_wetnessDebugInfo" text="Le débogage de l'humidité est désormais %s"/> <!-- Online Translation -->
 
         <!-- Vehicles Frame Help -->
         <text name="easyDevControls_vehicleConditionHelp" text="Ajoute, retranche ou fixe l'état sélectionné au véhicule actif (ou au véhicule à portée du personnage) ainsi qu'à tous ses outils attelés."/>
@@ -506,6 +508,8 @@ Vitesses de 1 à 10: Pour tester le comportement du véhicule actif."/> <!-- Tra
         <text name="easyDevControls_setPowerConsumerHelp" text="Défini les propriétés de la spécialisation 'powerConsumer'."/>
         <text name="easyDevControls_toggleCoverHelp" text="Active la bâche du véhicule actif ou à portée du personnage."/>
         <text name="easyDevControls_fillUnitFillLevelHelp" text="Rempli ou vide un contenant avec une certaine quantité de contenu."/>
+        <text name="easyDevControls_wetnessDebugHelp" text="Active ou désactive le mode de débogage de l'humidité.
+Remarque : il peut être nécessaire de recharger les véhicules pour afficher/masquer l'état de débogage ou les visualiser dans la boutique."/> <!-- Online Translation -->
 
         <!-- Placeable Frame XML -->
         <text name="easyDevControls_placeablesHeader" text="Plaçables"/>

@@ -319,7 +319,7 @@
         <text name="easyDevControls_resetFovAngleInfo" text="Поле зору скинуто до значення за замовчуванням %d°."/>
         <text name="easyDevControls_setQualityInfo" text="Дальність промальовування %s."/>
         <text name="easyDevControls_extraTimescalesInfo" text="Збільшена шкала часу: %s"/>
-        <text name="easyDevControls_stopTimeInfo" text="Час зупинено."/>
+        <text name="easyDevControls_stopTimeInfo" text="Швидкість часу встановлено на %s"/> <!-- Online Translated -->
         <text name="easyDevControls_clearI3DCacheInfo" text="Кеш I3D очищений."/>
         <text name="easyDevControls_reloadStoreItemsInfo" text="Успішно перезавантажено %s товарів в магазині."/>
 
@@ -470,6 +470,7 @@
         <text name="easyDevControls_toggleCoverTitle" text="Положення брезенту"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Рівень заповнення"/>
         <text name="easyDevControls_fillUnitIndex" text="Зміст %s"/>
+        <text name="easyDevControls_wetnessDebugTitle" text="Налагодження вологості"/> <!-- Online Translation -->
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="Статус %s оновлений."/>
@@ -486,6 +487,7 @@
         <text name="easyDevControls_toggleCoverInfo" text="Кришка %s тепер %s, ідентифікатор стану %s."/>
         <text name="easyDevControls_setFillUnitFillLevelInfo" text="Успішне заповнення %s, %s - %s %s."/>
         <text name="easyDevControls_setFillUnitEmptyInfo" text="Успішно спорожнено %s ємність %s."/>
+        <text name="easyDevControls_wetnessDebugInfo" text="Налагодження вологості тепер становить %s"/> <!-- Online Translation -->
 
         <!-- Vehicles Frame Help -->
         <text name="easyDevControls_vehicleConditionHelp" text="Додає, видаляє або встановлює обраний відсоток стану транспортного засобу і всіх знарядь, або одного транспортного засобу в радіусі дії гравця."/>
@@ -506,6 +508,8 @@
         <text name="easyDevControls_setPowerConsumerHelp" text="Задає такі властивості спеціалізації «Споживання енергії»."/>
         <text name="easyDevControls_toggleCoverHelp" text="Перемикає кришку керованого транспортного засобу або транспортного засобу в радіусі дії гравця."/>
         <text name="easyDevControls_fillUnitFillLevelHelp" text="Змінює рівень заповнення зазначеним типом наповнювача."/>
+        <text name="easyDevControls_wetnessDebugHelp" text="Увімкнення/вимкнення режиму налагодження вологості.
+Примітка: для відображення/приховування стану налагодження або перегляду в магазині може знадобитися перезавантаження транспортних засобів."/> <!-- Online Translation -->
 
         <!-- Placeable Frame XML -->
         <text name="easyDevControls_placeablesHeader" text="Розміщувані об'єкти"/>

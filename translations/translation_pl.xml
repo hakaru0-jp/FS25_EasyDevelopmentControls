@@ -319,7 +319,7 @@ Upewnij się, że pojazd jest ustawiony na płaskiej płaszczyźnie, która jest
         <text name="easyDevControls_resetFovAngleInfo" text="Pole widzenia zresetowane do wartości domyślnej (%d°)."/>
         <text name="easyDevControls_setQualityInfo" text="Ustawiono jakość %s."/>
         <text name="easyDevControls_extraTimescalesInfo" text="Dodatkowa skala czasu %s"/>
-        <text name="easyDevControls_stopTimeInfo" text="Skala czasu została ustawiona na 0."/>
+        <text name="easyDevControls_stopTimeInfo" text="Skala czasu została ustawiona na %s."/>
         <text name="easyDevControls_clearI3DCacheInfo" text="Usunięto wszystkie dodatkowe pliki I3D."/>
         <text name="easyDevControls_reloadStoreItemsInfo" text="Przeładowano pomyślnie %s ofert w sklepie."/>
 
@@ -470,6 +470,7 @@ Czerwony: Bit wektorów &gt; 1"/> <!-- Translators: Space is intentional for eas
         <text name="easyDevControls_toggleCoverTitle" text="Przełączanie plandeki"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Poziom napełnienia"/>
         <text name="easyDevControls_fillUnitIndex" text="Rodzaj %s"/>
+        <text name="easyDevControls_wetnessDebugTitle" text="Debugowanie wilgotności"/>  <!-- Online Translation -->
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="Stan %s został zaktualizowany."/>
@@ -486,6 +487,7 @@ Czerwony: Bit wektorów &gt; 1"/> <!-- Translators: Space is intentional for eas
         <text name="easyDevControls_toggleCoverInfo" text="Plandeka %s jest teraz %s, stan: %s."/>
         <text name="easyDevControls_setFillUnitFillLevelInfo" text="Pomyślnie ustawiono rodzaj %s w %s na %s z poziomem napełnienia %s."/>
         <text name="easyDevControls_setFillUnitEmptyInfo" text="Pomyślnie opróżniono rodzaj %s w %s."/>
+        <text name="easyDevControls_wetnessDebugInfo" text="Debugowanie wilgotności wynosi obecnie %s"/> <!-- Online Translation -->
 
         <!-- Vehicles Frame Help -->
         <text name="easyDevControls_vehicleConditionHelp" text="Dodaje, usuwa lub ustawia procent wybranego stanu dla prowadzonego pojazdu i podłączonych maszyn lub pojazdu w zasięgu gracza."/>
@@ -506,6 +508,8 @@ Stany 1 - 10: Specyficzne stany do testowania."/> <!-- Translators: Space is int
         <text name="easyDevControls_setPowerConsumerHelp" text="Ustawia właściwości specjalizacji powerConsumer."/>
         <text name="easyDevControls_toggleCoverHelp" text="Przełącza plandekę wybranego pojazdu po wejściu lub pojazd w zasięgu gracza."/>
         <text name="easyDevControls_fillUnitFillLevelHelp" text="Aktualizuje rodzaj zbiornika o danym poziomie wypełnienia i typie ładunku."/>
+        <text name="easyDevControls_wetnessDebugHelp" text="Włącza lub wyłącza tryb debugowania wilgotności.
+Uwaga: Aby wyświetlić lub ukryć stan debugowania lub wyświetlić pojazd w sklepie, może być konieczne ponowne załadowanie pojazdów."/> <!-- Online Translation -->
 
         <!-- Placeable Frame XML -->
         <text name="easyDevControls_placeablesHeader" text="Obiekty stawiane"/>
