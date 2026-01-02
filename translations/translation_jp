@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <contributors>
+        <name>Hakaru</name>
+    </contributors>
+
+    <!-- Translation Notes!
+        使用と記号(&)
+ 「」を使用します。 「二重引用符」の場合
+
+ 使用 > > (大なり記号) の場合
+ <を使用します。 < (小なり文字) の場合
+
+ すべての書式が英語と同じであることを確認してください。 (%s または %d または %i または %%)
+ すべての機能を「ゲーム テスト」して、フォーマットが正しく、ログ ファイルにエラーが生成されないことを確認してください。 
+
+「FS25_EasyDevControls」が MOD フォルダーで解凍されると、言語ファイルを再ロードして進行状況を確認できます。 
+- コンソール コマンド: gtxReloadEasyDevControlsTranslations
+
+ (tag="namedFormat") を含むエントリには、特別な書式設定が含まれます。 
+- これらのテキストを使用すると、書式設定されたテキストを翻訳に必要な任意の順序で記述することができます。 
+- テキストの名前付き書式設定部分は変更しないでください。 例: %{objectName}s
+
+ (revision="fs25") を含むエントリは、FS25 用に新規または変更されたものであり、新しい翻訳が必要です。
+    -->
+
+    <texts>
+        <!-- Inputs (FS25) -->
+        <text name="input_EDC_SUPER_STRENGTH" text="超強力入力の切り替え" revision="fs25"/>
+
+        <!-- First Load Info (FS25) -->
+        <text name="easyDevControls_firstLoadInfo" text="何かをする方法がわかりませんか?
+「Easy Development Controls」メニューの「Help」セクションを確認してください。
+
+すべての入力バインディングは、ゲーム内メニュー コントロール画面から設定できます。" revision="fs25"/>
+
+        <!-- Misc (FS25) -->
+        <text name="easyDevControls_resetPageSuccess" text="ページコマンドがリセットされました..." revision="fs25"/>
+        <text name="easyDevControls_squareMeterShort" text="m²" revision="fs25"/>
+        <text name="easyDevControls_typeTree" text="木" revision="fs25"/>
+        <text name="easyDevControls_typeTrees" text="木" revision="fs25"/>
+        <text name="easyDevControls_placeholderEnterAmount" text="金額を入力" revision="fs25"/>
+        <text name="easyDevControls_placeholderEnterCoordinates" text="座標を入力" revision="fs25"/>
+        <text name="easyDevControls_decoration" text="装飾" revision="fs25"/>
+        <text name="easyDevControls_dense" text="密集" revision="fs25"/>
+        <text name="easyDevControls_ridgeSown" text="畝播き" revision="fs25"/>
+        <text name="easyDevControls_currentValue" text="現在： %s" revision="fs25"/>
+        <text name="easyDevControls_noTrigger" text="トリガーなし" revision="fs25"/>
+        <text name="easyDevControls_verbose" text="詳細" revision="fs25"/>
+        <text name="easyDevControls_blocked" text="ブロック中" revision="fs25"/>
+        <text name="easyDevControls_weatherTypePartiallyCloudy" text="晴れ時々曇り" revision="fs25"/>
+        <text name="easyDevControls_weatherTypeHail" text="雹" revision="fs25"/>
+        <text name="easyDevControls_weatherTypeTwister" text="竜巻" revision="fs25"/>
+        <text name="easyDevControls_weatherTypeThunder" text="雷" revision="fs25"/>
+
+        <!-- General Frame (FS25) -->
+        <text name="easyDevControls_setFovCurrentAngleInfo" text="現在： %d°" revision="fs25"/>
+
+        <!-- Player Frame (FS25) -->
+        <text name="easyDevControls_superStrengthKeyTitle" text="超強力入力" revision="fs25"/>
+        <text name="easyDevControls_superStrengthKeyInfo" text="超強力入力 (%s) %s" revision="fs25"/>
+        <text name="easyDevControls_superStrengthKeyHelp" text="超強力入力の割り当てを有効／無効にします。" revision="fs25"/>
+        <text name="easyDevControls_jumpDelayTitle" text="ジャンプ遅延" revision="fs25"/>
+        <text name="easyDevControls_jumpDelayInfo" text="ジャンプ遅延状態: %s" revision="fs25"/>
+        <text name="easyDevControls_jumpDelayHelp" text="プレイヤーのジャンプ遅延を秒単位で設定します。" revision="fs25"/>
+        <text name="easyDevControls_noClipTitle" text="ノークリップ" revision="fs25"/>
+        <text name="easyDevControls_noClipHelp" text="ローカルプレイヤーの当たり判定を無効にします。" revision="fs25"/>
+        <text name="easyDevControls_playerDebugInitialisationTitle" text="デバッグ初期化" revision="fs25"/>
+        <text name="easyDevControls_playerDebugHandToolsTitle" text="デバッグ手持ちツール" revision="fs25"/>
+        <text name="easyDevControls_playerDebugNetworkTitle" text="デバッグネットワーク" revision="fs25"/>
+        <text name="easyDevControls_playerDebugGraphicsTitle" text="デバッググラフィック" revision="fs25"/>
+        <text name="easyDevControls_playerDebugStateTitle" text="デバッグ状態" revision="fs25"/>
+        <text name="easyDevControls_playerDebugMovementTitle" text="デバッグ移動" revision="fs25"/>
+        <text name="easyDevControls_playerDebugInputTitle" text="デバッグ入力" revision="fs25"/>
+        <text name="easyDevControls_playerDebugDisplayInfo" text="プレイヤーデバッグフラグ %s は現在 %s です。" revision="fs25"/>
+        <text name="easyDevControls_playerDebugDisplayHelp" text="%s デバッグフラグを有効／無効にします。" revision="fs25"/>
+
+        <!-- Objects Frame (FS25) -->
+        <text name="easyDevControls_numObjectsHelp" text="マップ上の %s の数と、該当する場合は制限を表示します。" revision="fs25"/>
+        <text name="easyDevControls_plantTreeTitle" text="木を植える" revision="fs25"/>
+        <text name="easyDevControls_plantTreeInfo" text="木が植えられました。" revision="fs25"/>
+        <text name="easyDevControls_plantTreeHelp" text="選択した木の種類をプレイヤーの前に植えます。警告：衝突判定は行われません。前方に障害物がないことを確認してください。" revision="fs25"/>
+        <text name="easyDevControls_growthStage" text="成長段階 %d" revision="fs25"/>
+        <text name="easyDevControls_splitShapesTitle" text="シェイプ分割" revision="fs25"/>
+        <text name="easyDevControls_removeAllSplitShapesTitle" text="分割シェイプを削除" revision="fs25"/>
+        <text name="easyDevControls_showCollisionsInfo" text="衝突情報を表示するにはデバッグビュー（F5）を有効にしてください。" revision="fs25"/>
+
+        <!-- Vehicles Frame (FS25) -->
+        <text name="easyDevControls_vehicleWetness" text="濡れ" revision="fs25"/>
+
+        <!-- Placeables Frame (FS25) -->
+        <text name="easyDevControls_tipToTriggerSuccess" text="%s をトリガーに投入しました。" revision="fs25"/>
+
+        <!-- Farmlands Frame (FS25) -->
+        <text name="easyDevControls_clearHeightTypesTitle" text="高さタイプをクリア" revision="fs25"/>
+        <text name="easyDevControls_setRiceFieldTitle" text="水田を設定" revision="fs25"/>
+        <text name="easyDevControls_setRiceFieldHelp" text="範囲内の水田に対して以下の変更を可能にします。" revision="fs25"/>
+
+        <!-- Environment Frame (FS25) -->
+        <text name="easyDevControls_tireTrackDebugTitle" text="タイヤ痕デバッグ" revision="fs25"/>
+        <text name="easyDevControls_tireTrackDebugHelp" text="常時表示・色付きのタイヤ痕デバッグモードを有効／無効にします。" revision="fs25"/>
+
+        <!-- Permissions Frame (FS25) -->
+        <text name="easyDevControls_adminLogin" text="EDC 管理者としてログイン" revision="fs25"/>
+        <text name="easyDevControls_adminLogout" text="EDC 管理者からログアウト" revision="fs25"/>
+        <text name="easyDevControls_changePassword" text="EDC パスワードを変更" revision="fs25"/>
+        <text name="easyDevControls_passwordChanged" text="パスワードを変更しました: %s" revision="fs25"/>
+        <text name="easyDevControls_passwordInvalid" text="無効なパスワードの組み合わせ／文字です。再試行してください。" revision="fs25"/>
+        <text name="easyDevControls_loggedIn" text="ログイン中: %s" revision="fs25"/>
+        <text name="easyDevControls_loggedOut" text="ログアウトしました: %s" revision="fs25"/>
+        <text name="easyDevControls_singlePlayerOnly" text="シングルプレイヤー専用" revision="fs25"/>
+
+        <!-- Inputs -->
+        <text name="input_EDC_SHOW_UI" text="メニューを開く"/>
+        <text name="input_EDC_PLAYER_RUN_SPEED" text="走行速度増加"/>
+        <text name="input_EDC_OBJECT_DELETE" text="オブジェクトを削除"/>
+        <text name="input_EDC_TOGGLE_HUD" text="HUD 切り替え"/>
+
+        <!-- Load Error -->
+        <text name="easyDevControls_loadError" text="%s 作成の MOD「%s」を読み込めないか、サポートされていません。
+エラー回避のため、この MOD は削除してください。
+
+最新の公式リリースは以下の GIANTS ModHub リンクをご確認ください。"/>
+
+        <!-- Misc -->
+        <text name="easyDevControls_typePlaceables" text="設置物"/>
+        <text name="easyDevControls_typePlaceable" text="設置物"/>
+        <text name="easyDevControls_typePrePlacedPlaceables" text="事前配置された設置物"/>
+        <text name="easyDevControls_typePrePlacedPlaceable" text="事前配置された設置物"/>
+        <text name="easyDevControls_typeProductionPoints" text="生産拠点"/>
+        <text name="easyDevControls_typeProductionPoint" text="生産拠点"/>
+        <text name="easyDevControls_typeProductions" text="生産"/>
+        <text name="easyDevControls_typeProduction" text="生産"/>
+        <text name="easyDevControls_typeVehicles" text="車両"/>
+        <text name="easyDevControls_typeVehicle" text="車両"/>
+        <text name="easyDevControls_typeTrainSystems" text="鉄道システム"/>
+        <text name="easyDevControls_typeTrainSystem" text="鉄道システム"/>
+        <text name="easyDevControls_typePallets" text="パレット"/>
+        <text name="easyDevControls_typePallet" text="パレット"/>
+        <text name="easyDevControls_typeBales" text="ベール"/>
+        <text name="easyDevControls_typeBale" text="ベール"/>
+        <text name="easyDevControls_typeLogs" text="丸太"/>
+        <text name="easyDevControls_typeLog" text="丸太"/>
+        <text name="easyDevControls_typeStumps" text="切り株"/>
+        <text name="easyDevControls_typeStump" text="切り株"/>
+        <text name="easyDevControls_typeFields" text="畑"/>
+        <text name="easyDevControls_typeField" text="畑"/>
+        <text name="easyDevControls_typeUnknownTypes" text="不明なタイプ"/>
+        <text name="easyDevControls_typeUnknownType" text="不明なタイプ"/>
+        <text name="easyDevControls_weatherTypeSunny" text="晴れ"/>
+        <text name="easyDevControls_weatherTypeCloudy" text="曇り"/>
+        <text name="easyDevControls_weatherTypeRaining" text="雨"/>
+        <text name="easyDevControls_weatherTypeSnowing" text="雪"/>
+        <text name="easyDevControls_seasonSpring" text="春"/>
+        <text name="easyDevControls_seasonSummer" text="夏"/>
+        <text name="easyDevControls_seasonAutumn" text="秋"/>
+        <text name="easyDevControls_seasonWinter" text="冬"/>
+        <text name="easyDevControls_radius" text="半径"/>
+        <text name="easyDevControls_random" text="ランダム"/>
+        <text name="easyDevControls_unitLitres" text="リットル"/>
+        <text name="easyDevControls_unitPercent" text="パーセント"/>
+        <text name="easyDevControls_activeProductions" text="稼働中の生産"/>
+        <text name="easyDevControls_owner" text="所有者"/>
+        <text name="easyDevControls_price" text="価格"/>
+        <text name="easyDevControls_location" text="位置"/>
+        <text name="easyDevControls_tableId" text="テーブル ID"/>
+        <text name="easyDevControls_transferCost" text="移動コスト"/>
+        <text name="easyDevControls_variation" text="バリエーション"/>
+        <text name="easyDevControls_variations" text="バリエーション"/>
+        <text name="easyDevControls_info" text="情報"/>
+        <text name="easyDevControls_size" text="サイズ"/>
+        <text name="easyDevControls_fillTypes" text="充填タイプ"/>
+        <text name="easyDevControls_rolledSeedbed" text="転圧された播種床"/>
+        <text name="easyDevControls_directSown" text="直まき"/>
+        <text name="easyDevControls_planted" text="植え付け済み"/>
+        <text name="easyDevControls_ridge" text="畝"/>
+        <text name="easyDevControls_rollerLines" text="ローラー跡"/>
+        <text name="easyDevControls_harvestReadyOther" text="他も収穫準備完了"/>
+        <text name="easyDevControls_grassCut" text="草刈り済み"/>
+        <text name="easyDevControls_width" text="幅"/>
+        <text name="easyDevControls_height" text="高さ"/>
+        <text name="easyDevControls_length" text="長さ"/>
+        <text name="easyDevControls_diameter" text="直径"/>
+        <text name="easyDevControls_mask" text="マスク"/>
+        <text name="easyDevControls_picked" text="選択した"/>
+        <text name="easyDevControls_small" text="小"/>
+        <text name="easyDevControls_medium" text="中"/>
+        <text name="easyDevControls_large" text="大"/>
+        <text name="easyDevControls_partial" text="部分的"/>
+        <text name="easyDevControls_growing" text="成長中"/>
+        <text name="easyDevControls_withered" text="枯れた"/>
+        <text name="easyDevControls_enabled" text="有効"/>
+        <text name="easyDevControls_disabled" text="無効"/>
+        <text name="easyDevControls_infohud_stump" text="切り株"/>
+        <text name="easyDevControls_infohud_tree" text="木"/>
+        <text name="easyDevControls_all" text="全て"/>
+        <text name="easyDevControls_found" text="見つかった"/>
+        <text name="easyDevControls_state" text="状態 %s"/>
+        <text name="easyDevControls_type" text="タイプ %s"/>
+        <text name="easyDevControls_fill" text="埋める"/>
+        <text name="easyDevControls_empty" text="空"/>
+        <text name="easyDevControls_maximum" text="最大"/>
+        <text name="easyDevControls_input" text="入力"/>
+        <text name="easyDevControls_output" text="出力"/>
+        <text name="easyDevControls_open" text="開く"/>
+        <text name="easyDevControls_opened" text="開いている"/>
+        <text name="easyDevControls_close" text="閉じる"/>
+        <text name="easyDevControls_closed" text="閉じている"/>
+        <text name="easyDevControls_square" text="四角"/>
+        <text name="easyDevControls_round" text="丸型"/>
+        <text name="easyDevControls_wrapped" text="梱包"/>
+        <text name="easyDevControls_unwrapped" text="梱包されていない"/>
+        <text name="easyDevControls_add" text="追加"/>
+        <text name="easyDevControls_remove" text="削除"/>
+        <text name="easyDevControls_set" text="設定"/>
+        <text name="easyDevControls_default" text="デフォルト"/>
+        <text name="easyDevControls_success" text="成功"/>
+        <text name="easyDevControls_farmProducts" text="農産物"/>
+        <text name="easyDevControls_unknown" text="不明"/>
+        <text name="easyDevControls_reload" text="再読み込み"/>
+        <text name="easyDevControls_reloadReset" text="再読み込み・リセット"/>
+        <text name="easyDevControls_deleteObject" text="%s を削除"/>
+        <text name="easyDevControls_formattedSeconds" text="%d 秒"/>
+        <text name="easyDevControls_userSetting" text="ユーザー設定"/>
+        <text name="easyDevControls_refreshing" text="更新中"/>
+        <text name="easyDevControls_noField" text="畑なし"/>
+        <text name="easyDevControls_unsupported" text="未対応"/>
+        <text name="easyDevControls_overview" text="概要"/>
+        <text name="easyDevControls_author" text="作者"/>
+        <text name="easyDevControls_translations" text="翻訳"/>
+        <text name="easyDevControls_bugReporting" text="バグ報告"/>
+
+        <!-- Messages -->
+        <text name="easyDevControls_superStrengthOnMessage" text="%s により超強力が有効になりました"/>
+        <text name="easyDevControls_superStrengthOffMessage" text="%s により超強力が無効になりました"/>
+        <text name="easyDevControls_requestCancelledMessage" text="リクエストがキャンセルされました。"/>
+        <text name="easyDevControls_requestFailedMessage" text="リクエストに失敗しました！"/>
+        <text name="easyDevControls_updatingAllFieldsMessage" text="すべての畑を更新中です。しばらくお待ちください…"/>
+        <text name="easyDevControls_reloadFailedMessage" text="次の %s の再読み込みに失敗しました。"/>
+        <text name="easyDevControls_ignoreRemoveIfEmptyMessage" text="'%s' の充填量が 0 に設定されました。空時削除フラグを無視しますか？"/>
+        <text name="easyDevControls_serverRequestMessage" text="サーバーから更新を要求しています。しばらくお待ちください。"/>
+        <text name="easyDevControls_defaultResetFailedMessage" text="デフォルトへのリセットに失敗しました！"/>
+        <text name="easyDevControls_unknownFailMessage" text="失敗しました（原因不明）！"/>
+        <text name="easyDevControls_noInformationMessage" text="利用可能な情報はありません"/>
+
+        <!-- Warnings -->
+        <text name="easyDevControls_invalidFarmWarning" text="失敗しました。無効な農場です！"/>
+        <text name="easyDevControls_invalidMoneyWarning" text="無効な金額値'%s'が指定されました！"/>
+        <text name="easyDevControls_invalidValueWarning" text="無効な値が指定されました！"/>
+        <text name="easyDevControls_invalidFillTypeWarning" text="未対応の充填タイプが指定されました！"/>
+        <text name="easyDevControls_invalidTreeTypeWarning" text="未対応の樹木タイプが指定されました！"/>
+        <text name="easyDevControls_setTimeWarning" text="時間を %s と %s 進めてもよろしいですか？"/>
+        <text name="easyDevControls_timeScaleWarning" text="月・日・時間の設定は、時間倍率が「%s」以下の場合のみ可能です！"/>
+        <text name="easyDevControls_setFOVAngleWarning" text="視野角（FOV）の設定に失敗しました。%s は有効な値ではありません！"/>
+        <text name="easyDevControls_invalidTeleportWarning" text="無効な X / Z 座標です！X と Z の座標のみをスペースで区切って入力してください。"/>
+        <text name="easyDevControls_emptyTeleportWarning" text="まず有効な X / Z 座標を入力するか、一覧から畑番号を選択してください！"/>
+        <text name="easyDevControls_extraTimescalesWarning" text="5000倍を超える時間倍率は、ゲーム本体やカスタムスクリプトに悪影響を与える可能性があります。高速な時間倍率はテスト目的のみに使用することを推奨します！"/>
+        <text name="easyDevControls_resetPageWarning" text="現在のページをデフォルト設定にリセットしてもよろしいですか？"/>
+        <text name="easyDevControls_resetPermissionsWarning" text="すべての権限をデフォルトにリセットしてもよろしいですか？"/>
+        <text name="easyDevControls_noValidVehicleWarning" text="有効な車両が見つかりません！"/>
+        <text name="easyDevControls_invalidFarmVehicleWarning" text="選択した車両はあなたの農場に属していません！"/>
+        <text name="easyDevControls_setPowerConsumerWarning" text="作業機が選択されていないか、動力を消費する作業機ではありません！"/>
+        <text name="easyDevControls_vehicleAnalyseWarning" text="選択した車両'%s'を解析しようとしています。
+
+最良の結果を得るため、車両が x/z 平面と平行な平坦な場所に配置されていることを確認してください。"/>
+        <text name="easyDevControls_vehicleAnalyseFailedWarning" text="車両の解析に失敗しました。有効な車両がないか、無効です！"/>
+        <text name="easyDevControls_removeAllObjectsWarning" text="マップからすべての %s を削除してもよろしいですか？"/>
+        <text name="easyDevControls_modConflictWarning" text="%s 作成の MOD'%s'との競合により、この機能は無効化されています。"/>
+        <text name="easyDevControls_failedToSpawnObjectWarning" text="%s の生成に失敗しました。再試行してください。"/>
+
+        <!-- GUI Buttons -->
+        <text name="easyDevControls_removeBlurButton" text="背景を削除"/>
+        <text name="easyDevControls_addBlurButton" text="背景を追加"/>
+        <text name="easyDevControls_buttonConfirmAndClose" text="確定して閉じる"/>
+        <text name="easyDevControls_buttonClear" text="クリア"/>
+
+        <!-- General Frame XML -->
+        <text name="easyDevControls_generalHeader" text="一般"/>
+
+        <text name="easyDevControls_cheatMoneyTitle" text="資金チート"/>
+        <text name="easyDevControls_addMoneyTitle" text="資金を追加"/>
+        <text name="easyDevControls_removeMoneyTitle" text="資金を減らす"/>
+        <text name="easyDevControls_setMoneyTitle" text="資金を設定"/>
+        <text name="easyDevControls_flightModeToggleTitle" text="フライトモード"/>
+        <text name="easyDevControls_flightModeStateTitle" text="フライト状態"/>
+        <text name="easyDevControls_hudVisibilityTitle" text="HUD 表示"/>
+        <text name="easyDevControls_hudInputTitle" text="HUD 入力"/>
+        <text name="easyDevControls_teleportTitle" text="テレポート"/>
+        <text name="easyDevControls_teleportFormatedTitle" text="テレポート %s"/>
+        <text name="easyDevControls_teleportMapSelect" text="マップ選択"/>
+        <text name="easyDevControls_flipVehiclesTitle" text="車両を反転"/>
+        <text name="easyDevControls_deleteObjectsKeyTitle" text="オブジェクト削除入力"/>
+        <text name="easyDevControls_setFOVAngleTitle" text="FOV角度を設定"/>
+        <text name="easyDevControls_setQualityTitle" text="品質を設定"/>
+        <text name="easyDevControls_extraTimescalesTitle" text="追加時間倍率"/>
+        <text name="easyDevControls_stopTimeTitle" text="時間を停止"/>
+        <text name="easyDevControls_showCollectablesTitle" text="収集物を表示"/>
+        <text name="easyDevControls_clearI3DCacheTitle" text="I3D キャッシュをクリア"/>
+        <text name="easyDevControls_reloadStoreItemsTitle" text="ショップアイテムを再読み込み"/>
+
+        <!-- General Frame Info -->
+        <text name="easyDevControls_addMoneyInfo" text="農場口座に %s を追加しました。"/>
+        <text name="easyDevControls_removeMoneyInfo" text="農場口座から %s を減額しました。"/>
+        <text name="easyDevControls_setMoneyInfo" text="農場口座の残高を %s に設定しました。"/>
+        <text name="easyDevControls_flightModeToggleInfo" text="フライトモード：%s"/>
+        <text name="easyDevControls_flightModeStateOffInfo" text="フライト状態：%s"/>
+        <text name="easyDevControls_flightModeStateOnInfo" text="フライト状態：%s（Q キーと E キーで高度を変更）"/>
+        <text name="easyDevControls_hudVisibilityInfo" text="HUD 表示：%s"/>
+        <text name="easyDevControls_hudInputOffInfo" text="HUD 入力の割り当て：オフ"/>
+        <text name="easyDevControls_hudInputOnInfo" text="HUD 入力の割り当て：オン（入力'%s'で HUD 表示を切り替え）"/>
+        <text name="easyDevControls_teleportPlayerFieldInfo" text="プレイヤーを農地 %s に移動しました。" revision="fs25"/> <!-- field > farmland -->
+        <text name="easyDevControls_teleportVehiclesFieldInfo" text="%s 台の車両を農地 %s に移動しました。" revision="fs25"/> <!-- field > farmland -->
+        <text name="easyDevControls_teleportPlayerInfo" text="プレイヤーを座標 %s、%s に移動しました。"/>
+        <text name="easyDevControls_teleportVehiclesInfo" text="%s 台の車両を座標 %s、%s に移動しました。"/>
+        <text name="easyDevControls_flipVehiclesInfo" text="車両および接続されている作業機の向きを修正しています。"/>
+        <text name="easyDevControls_deleteObjectsKeyInfo" text="オブジェクト削除入力の割り当て（%s）%s"/>
+        <text name="easyDevControls_setFovAngleInfo" text="カメラの FOV を %d° に更新しました。"/>
+        <text name="easyDevControls_resetFovAngleInfo" text="視野角をデフォルト値 %d° にリセットしました。"/>
+        <text name="easyDevControls_setQualityInfo" text="品質を %s に設定しました。"/>
+        <text name="easyDevControls_extraTimescalesInfo" text="追加時間倍率：%s"/>
+        <text name="easyDevControls_stopTimeInfo" text="時間倍率を %s に設定しました。"/>
+        <text name="easyDevControls_clearI3DCacheInfo" text="共有 i3d ファイルをすべて削除しました。"/>
+        <text name="easyDevControls_reloadStoreItemsInfo" text="%s 件のショップアイテムを再読み込みしました。"/>
+
+        <!-- General Frame Help -->
+        <text name="easyDevControls_addMoneyHelp" text="農場口座の残高に資金を追加します。"/>
+        <text name="easyDevControls_removeMoneyHelp" text="農場口座の残高から資金を減らします。"/>
+        <text name="easyDevControls_setMoneyHelp" text="農場口座の残高を指定した値に設定します。"/>
+        <text name="easyDevControls_flightModeToggleHelp" text="プレイヤーのフライトデバッグモードを切り替えます。"/>
+        <text name="easyDevControls_flightModeStateHelp" text="フライトモード」が有効な場合のみ使用できます。この機能はゲーム内で J キーでも切り替え可能です。有効時は Q キーと E キーでプレイヤーの高度を変更できます。"/>
+        <text name="easyDevControls_hudVisibilityHelp" text="HUD の表示／非表示を設定します。"/>
+        <text name="easyDevControls_hudInputHelp" text="HUD 切り替え入力の有効／無効を切り替えます。"/>
+        <text name="easyDevControls_teleportHelp" text="プレイヤー、搭乗中の車両、またはプレイヤー周囲の車両を、選択したマップ地点、畑の中央、または指定した X / Z 座標にテレポートします。"/>
+        <text name="easyDevControls_flipVehiclesHelp" text="車両および接続されている作業機の向きを修正します。この操作は搭乗中の車両、または有効な車両を見ている場合に使用できます。"/>
+        <text name="easyDevControls_deleteObjectsKeyHelp" text="オブジェクト削除入力の有効／無効を切り替えます。これにより、プレイヤーが見ている木、丸太、切り株、ベール、パレット、または車両を削除できます。
+
+※ 注意：この機能は「マスターユーザー／管理者」のみ使用可能です！"/>
+        <text name="easyDevControls_setFOVAngleHelp" text="現在のカメラの視野角（FOV）を設定します。「-1」または「リセット」ボタンでデフォルト値に戻せます。"/>
+        <text name="easyDevControls_setQualityHelp" text="高品質なスクリーンショットの撮影などに必要な設定を調整します。"/>
+        <text name="easyDevControls_extraTimescalesHelp" text="次の追加時間倍率の使用可否を切り替えます：%s"/>
+        <text name="easyDevControls_stopTimeHelp" text="現在の時間倍率を 0 に設定します。"/>
+        <text name="easyDevControls_showCollectablesHelp" text="収集物をマップに表示する割合を調整します。※ 現在は「シングルプレイヤー」専用です。"/>
+        <text name="easyDevControls_clearI3DCacheHelp" text="キャッシュされた i3d ファイルをすべて削除し、最新バージョンをディスクから読み込むようにします。共有 i3d ファイルがない場合、この機能は無効になります。"/>
+        <text name="easyDevControls_reloadStoreItemsHelp" text="ショップ設定を含む、すべてのショップアイテムデータを再読み込みします。"/>
+
+        <!-- Player Frame XML -->
+        <text name="easyDevControls_playerHeader" text="プレイヤー"/>
+
+        <text name="easyDevControls_superStrengthTitle" text="超強力"/>
+        <text name="easyDevControls_jumpMultiplierTitle" text="ジャンプ倍率"/>
+        <text name="easyDevControls_thirdPersonViewTitle" text="三人称視点"/>
+        <text name="easyDevControls_woodCuttingMarkerTitle" text="木材伐採マーカー"/>
+        <text name="easyDevControls_aimOverlayTitle" text="エイムマーカー"/>
+        <text name="easyDevControls_runSpeedTitle" text="走行倍率"/>
+        <text name="easyDevControls_runSpeedKeyTitle" text="走行倍率入力"/>
+        <text name="easyDevControls_setFarmTitle" text="農場を設定"/>
+        <text name="easyDevControls_playerDebugTitle" text="デバッグ情報"/>
+        <text name="easyDevControls_playerFsmDebugTitle" text="ステートマシンデバッグ"/>
+        <text name="easyDevControls_playerFsmStateJumpDebugTitle" text="ジャンプデバッグ"/>
+
+        <!-- Player Frame Info -->
+        <text name="easyDevControls_superStrengthOffInfo" text="プレイヤーは通常の力になりました"/>
+        <text name="easyDevControls_superStrengthOnInfo" text="プレイヤーは超強力になり、持ち上げ可能範囲が拡大しました"/>
+        <text name="easyDevControls_jumpMultiplierInfo" text="ジャンプ倍率の状態：%s"/>
+        <text name="easyDevControls_thirdPersonViewInfo" text="プレイヤー三人称視点：%s"/>
+        <text name="easyDevControls_woodCuttingMarkerInfo" text="木材伐採マーカー：%s"/>
+        <text name="easyDevControls_aimOverlayInfo" text="エイムマーカー：%s"/>
+        <text name="easyDevControls_runSpeedInfo" text="走行速度倍率を %s に設定しました"/>
+        <text name="easyDevControls_runSpeedStateInfo" text="走行速度増加：%s"/>
+        <text name="easyDevControls_runSpeedKeyInfo" text="走行速度入力(%s)%s"/>
+        <text name="easyDevControls_setFarmInfo" text="%s を農場 %s に変更しました"/>
+        <text name="easyDevControls_playerDebugInfo" text="プレイヤーデバッグ情報：%s"/>
+        <text name="easyDevControls_playerFsmDebugInfo" text="プレイヤー車両状態デバッグ：%s"/>
+        <text name="easyDevControls_playerFsmStateJumpDebugInfo" text="プレイヤージャンプ車両状態デバッグ：%s"/>
+
+        <!-- Player Frame Help -->
+        <text name="easyDevControls_superStrengthHelp" text="超強力機能を切り替え、プレイヤーの持ち上げ可能範囲を拡張します。"/>
+        <text name="easyDevControls_jumpMultiplierHelp" text="選択した倍率を加算して、プレイヤーのジャンプ高度を上げます。"/>
+        <text name="easyDevControls_thirdPersonViewHelp" text="プレイヤーの三人称視点を切り替えます。
+
+※ 注意：このモードはスクリーンショット用に設計されており、「手持ちツール」など一部のゲーム機能は有効中に正しく動作しません。"/> <!-- Translators: Space is intentional for easy reading -->
+        <text name="easyDevControls_woodCuttingMarkerHelp" text="チェーンソーの伐採マーカーの表示／非表示を切り替えます。"/>
+        <text name="easyDevControls_aimOverlayHelp" text="エイムマーカーの表示／非表示を切り替えます。"/>
+        <text name="easyDevControls_runSpeedHelp" text="「走行速度増加」がオンのときに使用される倍率を設定します。"/>
+        <text name="easyDevControls_runSpeedStateHelp" text="走行速度の状態を切り替えます。オフのときは、歩行・走行ともにデフォルト速度になります。"/>
+        <text name="easyDevControls_runSpeedKeyHelp" text="「走行速度増加」入力の有効／無効を切り替えます。"/>
+        <text name="easyDevControls_setFarmHelp" text="プレイヤーの現在の農場を設定、または車両の農場所有者を変更します。"/>
+        <text name="easyDevControls_playerDebugHelp" text="プレイヤーのデバッグ情報を切り替えます。"/>
+        <text name="easyDevControls_playerFsmDebugHelp" text="プレイヤーの車両状態デバッグ情報を切り替えます。"/>
+        <text name="easyDevControls_playerFsmStateJumpDebugHelp" text="プレイヤーのジャンプ車両状態デバッグ情報を切り替えます。ジャンプの高さ／継続時間がログファイルに出力されます。"/>
+
+        <!-- Objects Frame XML -->
+        <text name="easyDevControls_objectsHeader" text="オブジェクト／充填タイプ"/>
+
+        <text name="easyDevControls_addBaleTitle" text="ベールを追加"/>
+        <text name="easyDevControls_availableBaleTypesTitle" text="利用可能なベールタイプ"/>
+        <text name="easyDevControls_fermentingBalesTitle" text="発酵中のベール"/>
+        <text name="easyDevControls_showBaleLocationsTitle" text="ベール位置を表示"/>
+        <text name="easyDevControls_showPalletLocationsTitle" text="パレット位置を表示"/>
+        <text name="easyDevControls_addPalletTitle" text="パレットを追加"/>
+        <text name="easyDevControls_addLogTitle" text="丸太を追加"/>
+        <text name="easyDevControls_tipToTriggerTitle" text="トリガーに投入"/>
+        <text name="easyDevControls_tipToGroundTitle" text="地面に排出"/>
+        <text name="easyDevControls_clearTipAreaTitle" text="投入エリアをクリア"/>
+        <text name="easyDevControls_showTipCollisionsTitle" text="投入判定を表示"/>
+        <text name="easyDevControls_removeAllBalesTitle" text="ベールを削除"/>
+        <text name="easyDevControls_removeAllPalletsTitle" text="パレットを削除"/>
+        <text name="easyDevControls_removeAllLogsTitle" text="丸太を削除"/>
+        <text name="easyDevControls_removeAllStumpsTitle" text="切り株を削除"/>
+
+        <!-- Objects Frame Info -->
+        <text name="easyDevControls_spawnObjectsInfo" text="%s を追加しています。"/>
+        <text name="easyDevControls_removeAllObjectsInfo" text="マップから %s 個の %s を削除しました。"/>
+        <text name="easyDevControls_tipToGroundInfo" text="%s の %s を長さ %s で正常に排出しました。"/>
+        <text name="easyDevControls_clearTipAreaRadiusInfo" text="半径 %s の範囲で %s の高さタイプを正常にクリアしました。"/>
+        <text name="easyDevControls_clearTipAreaFieldInfo" text="%s の %s 高さタイプを正常にクリアしました。"/>
+        <text name="easyDevControls_clearTipAreaMapInfo" text="マップ全体の %s 高さタイプを正常にクリアしました。"/>
+        <text name="easyDevControls_hotspotsEnabledInfo" text="%s 個のホットスポットを有効にしました。"/>
+        <text name="easyDevControls_hotspotsDisabledInfo" text="%s 個のホットスポットを無効にしました。"/>
+
+        <!-- Objects Frame Help -->
+        <text name="easyDevControls_addBaleHelp" text="指定したベールタイプをプレイヤーの前に追加します。"/>
+        <text name="easyDevControls_availableBaleTypesHelp" text="利用可能なベールタイプの一覧を表示します。"/>
+        <text name="easyDevControls_fermentingBalesHelp" text="現在の農場が所有する、すべての発酵中ベールの一覧を表示します。"/>
+        <text name="easyDevControls_showBaleLocationsHelp" text="農場所有のすべてのベールを、マップ上にホットスポットとして表示します。"/>
+        <text name="easyDevControls_showPalletLocationsHelp" text="農場所有のすべてのパレットを、マップ上にホットスポットとして表示します。"/>
+        <text name="easyDevControls_addPalletHelp" text="選択したパレットタイプをプレイヤーの前に追加します。"/>
+        <text name="easyDevControls_addLogHelp" text="選択した丸太タイプと指定した長さの丸太を、プレイヤーの前に追加します。"/>
+        <text name="easyDevControls_tipToTriggerHelp" text="プレイヤーが現在立っているトリガーに製品を投入します。"/>
+        <text name="easyDevControls_tipToGroundHelp" text="指定した量の充填タイプを、長さ 1～25 メートルで地面に排出します。"/>
+        <text name="easyDevControls_clearTipAreaHelp" text="指定した半径内の「すべて」または「選択した」充填タイプを地面からクリアします。"/>
+        <text name="easyDevControls_showTipCollisionsHelp" text="以下の地面投入の衝突判定を表示します。
+
+緑：0
+青：1
+赤：2
+
+※ 注意：衝突情報を表示するには、デバッグビュー（F5）を有効にする必要があります。"/> <!-- Translators: Space is intentional for easy reading. --> <!-- TO_DO: Update translations -->
+        <text name="easyDevControls_removeAllBalesHelp" text="マップ上のすべてのベールを削除します！"/>
+        <text name="easyDevControls_removeAllPalletsHelp" text="マップ上のすべてのパレットを削除します！"/>
+        <text name="easyDevControls_removeAllLogsHelp" text="マップ上のすべての丸太を削除します！"/>
+        <text name="easyDevControls_removeAllStumpsHelp" text="マップ上のすべての切り株を削除します！"/>
+
+        <!-- Vehicle Frame XML -->
+        <text name="easyDevControls_vehiclesHeader" text="車両"/>
+
+        <text name="easyDevControls_vehicleDirt" text="汚れ"/>
+        <text name="easyDevControls_vehicleWear" text="摩耗"/>
+        <text name="easyDevControls_vehicleDamage" text="ダメージ"/>
+        <text name="easyDevControls_vehicleConditionTitle" text="状態"/>
+        <text name="easyDevControls_vehicleFuelTitle" text="燃料残量"/>
+        <text name="easyDevControls_vehicleMotorTempTitle" text="エンジン温度"/>
+        <text name="easyDevControls_vehicleOperatingTimeTitle" text="稼働時間"/>
+        <text name="easyDevControls_globalWiperStateTitle" text="ワイパー全体状態"/>
+        <text name="easyDevControls_wiperStateRainSensor" text="雨センサー"/>
+        <text name="easyDevControls_reloadVehicleTitle" text="車両を再読み込み"/>
+        <text name="easyDevControls_analyseVehicleTitle" text="車両を解析"/>
+        <text name="easyDevControls_vehicleDebugTitle" text="車両デバッグ状態"/>
+        <text name="easyDevControls_tensionBeltsDebugTitle" text="固定ベルトデバッグ"/>
+        <text name="easyDevControls_vehicleDistanceTitle" text="車両距離"/>
+        <text name="easyDevControls_removeAllVehiclesTitle" text="車両を削除"/>
+        <text name="easyDevControls_setPowerConsumerTitle" text="動力消費を設定"/>
+        <text name="easyDevControls_neededMinPtoPowerTitle" text="最小 PTO 出力"/>
+        <text name="easyDevControls_neededMaxPtoPowerTitle" text="最大 PTO 出力"/>
+        <text name="easyDevControls_forceFactorTitle" text="力係数"/>
+        <text name="easyDevControls_maxForceTitle" text="最大力"/>
+        <text name="easyDevControls_forceDir" text="力の方向"/>
+        <text name="easyDevControls_ptoRpm" text="PTO 回転数"/>
+        <text name="easyDevControls_syncVehicles" text="車両を同期"/>
+        <text name="easyDevControls_resetToDefault" text="デフォルトにリセット"/>
+        <text name="easyDevControls_toggleCoverTitle" text="カバー切り替え"/>
+        <text name="easyDevControls_fillUnitFillLevelTitle" text="充填量"/>
+        <text name="easyDevControls_fillUnitIndex" text="充填ユニット %s"/>
+        <text name="easyDevControls_wetnessDebugTitle" text="湿り具合デバッグ"/>
+
+        <!-- Vehicle Frame Info -->
+        <text name="easyDevControls_vehicleConditionInfo" text="%s の状態が更新されました。"/>
+        <text name="easyDevControls_vehicleAndImplementsConditionInfo" text="%s および接続されているすべての作業機の状態が更新されました。"/>
+        <text name="easyDevControls_vehicleFuelInfo" text="%s の %s レベルが %s %s に変更されました。"/>
+        <text name="easyDevControls_vehicleMotorTempInfo" text="%s のエンジン温度が %s ℃ に変更されました。"/>
+        <text name="easyDevControls_vehicleOperatingTimeInfo" text="%s の稼働時間が %s 時間に変更されました。"/>
+        <text name="easyDevControls_reloadVehicleInfo" text="%s の XML および I3D を正常に再読み込みしました。"/>
+        <text name="easyDevControls_vehicleAnalyseInfo" text="%s の解析が完了しました。詳細はゲームログを確認してください。"/>
+        <text name="easyDevControls_debugStateInfo" text="現在のデバッグ状態：%s"/>
+        <text name="easyDevControls_tensionBeltsDebugInfo" text="固定ベルトのデバッグは現在 %s です。"/>
+        <text name="easyDevControls_vehicleDistanceInfo" text="車両距離のデバッグは現在 %s です。"/>
+        <text name="easyDevControls_setPowerConsumerInfo" text="%s の動力消費データが更新されました（すべての車両に同期：%s）"/>
+        <text name="easyDevControls_toggleCoverInfo" text="%s のカバーは現在 %s です（状態 ID：%s）"/>
+        <text name="easyDevControls_setFillUnitFillLevelInfo" text="%s の充填ユニット %s を、充填量 %s で %s に設定しました。"/>
+        <text name="easyDevControls_setFillUnitEmptyInfo" text="%s の充填ユニット %s を空にしました。"/>
+        <text name="easyDevControls_wetnessDebugInfo" text="湿り具合のデバッグは現在 %s です。"/>
+
+        <!-- Vehicles Frame Help -->
+        <text name="easyDevControls_vehicleConditionHelp" text="選択した状態（％）を、搭乗中の車両とすべての作業機、またはプレイヤー周囲の単体車両に対して、追加・減少・設定します。"/>
+        <text name="easyDevControls_vehicleFuelHelp" text="搭乗中の車両、またはプレイヤー周囲の車両の燃料残量を設定します。"/>
+        <text name="easyDevControls_vehicleMotorTempHelp" text="搭乗中の車両、またはプレイヤー周囲の車両のエンジン温度を設定します。"/>
+        <text name="easyDevControls_vehicleOperatingTimeHelp" text="搭乗中の車両、またはプレイヤー周囲の車両の稼働時間を設定します。"/>
+        <text name="easyDevControls_globalWiperStateHelp" text="ワイパーの全体状態を設定します。
+
+雨センサー：自動動作（標準）
+オフ：すべての天候で無効
+状態 1～10：テスト用の車両固有状態"/> <!-- Translators: Space is intentional for easy reading -->
+        <text name="easyDevControls_reloadVehicleHelp" text="現在搭乗中の車両と接続されているすべての作業機、またはプレイヤー周囲の単体車両の I3D と XML を再読み込みします。"/>
+        <text name="easyDevControls_analyseVehicleHelp" text="搭乗中、またはプレイヤー周囲にある選択車両を解析します。結果はログファイルに出力されます。"/>
+        <text name="easyDevControls_vehicleDebugHelp" text="以下の車両デバッグ値を切り替えます。"/>
+        <text name="easyDevControls_tensionBeltsDebugHelp" text="すべての車両の固定ベルトのデバッグ表示を切り替えます。"/>
+        <text name="easyDevControls_vehicleDistanceHelp" text="すべての車両と現在のカメラとの距離を表示します。"/>
+        <text name="easyDevControls_removeAllVehiclesHelp" text="マップ上のすべての車両および作業機を削除します。"/>
+        <text name="easyDevControls_setPowerConsumerHelp" text="powerConsumer 特性の以下のプロパティを設定します。"/>
+        <text name="easyDevControls_toggleCoverHelp" text="搭乗中の車両、またはプレイヤー周囲の選択車両のカバーを切り替えます。"/>
+        <text name="easyDevControls_fillUnitFillLevelHelp" text="指定した充填量と充填タイプで充填ユニットを更新します。."/>
+        <text name="easyDevControls_wetnessDebugHelp" text="湿り具合のデバッグモードを切り替えます。
+※ 注意：デバッグ状態を表示／非表示にするには、車両の再読み込み、またはショップでの表示が必要な場合があります。"/>
+
+        <!-- Placeable Frame XML -->
+        <text name="easyDevControls_placeablesHeader" text="設置物"/>
+
+        <text name="easyDevControls_productionPointTitle" text="生産施設"/>
+        <text name="easyDevControls_npcOwned" text="NPC 所有"/>
+        <text name="easyDevControls_farmOwned" text="農場所有"/>
+        <text name="easyDevControls_currentTrigger" text="現在のトリガー"/>
+        <text name="easyDevControls_setOwnerTitle" text="所有者を設定"/>
+        <text name="easyDevControls_setStateTitle" text="状態を設定"/>
+        <text name="easyDevControls_outputModeTitle" text="出力モード"/>
+        <text name="easyDevControls_fillLevelTitle" text="充填量"/>
+        <text name="easyDevControls_productionPointListTitle" text="生産施設一覧"/>
+        <text name="easyDevControls_deliveryMappingTitle" text="配送マッピング"/>
+        <text name="easyDevControls_productionPointDebugTitle" text="生産施設デバッグ"/>
+        <text name="easyDevControls_showTestAreasTitle" text="テストエリアを表示"/>
+        <text name="easyDevControls_showPlacementCollisionsTitle" text="設置時の当たり判定を表示"/>
+        <text name="easyDevControls_removeAllPlaceablesTitle" text="設置物を削除"/>
+        <text name="easyDevControls_removeAllMapPlaceablesTitle" text="マップ設置物を削除"/>
+        <text name="easyDevControls_reloadPlaceableTitle" text="%s を再読み込み"/>
+        <text name="easyDevControls_reloadClosestPlaceableTitle" text="最も近い設置物を再読み込み"/>
+        <text name="easyDevControls_reloadAllPlaceablesTitle" text="設置物を再読み込み"/>
+
+        <!-- Placeable Frame Info -->
+        <text name="easyDevControls_productionPointOwnerInfo" text="%s %s を農場 %s（%s）に正常に変更しました。"/>
+        <text name="easyDevControls_productionPointStateInfo" text="%s %s を'%s'状態に正常に変更しました。"/>
+        <text name="easyDevControls_productionPointDistributionInfo" text="%s %s を配布モード'%s'に正常に変更しました。"/>
+        <text name="easyDevControls_productionPointFillLevelInfo" text="生産施設 %s の'%s'の充填量 %s を正常に変更しました。"/>
+        <text name="easyDevControls_productionPointFillLevelAllInfo" text="%s %s 上のすべての %s の充填量を正常に変更しました。"/>
+        <text name="easyDevControls_productionPointDistributingInfo" text="'%s'を以下の生産施設へ配布しています："/>
+        <text name="easyDevControls_reloadPlaceablesInfo" text="%s %s の XML と I3D を正常に再読み込みしました。"/>
+
+        <!-- Placeables Frame Help -->
+        <text name="easyDevControls_productionPointHelp" text="生産施設に対して以下の変更を行うことができます。
+
+カテゴリー:
+  1. すべての NPC 所有
+  2. すべての農場所有
+  3. 現在プレイヤーが反応している生産施設
+  4. 個別 ID
+
+所有者設定:
+  - 所有者を設定します。
+
+状態設定:
+  - 各生産ラインの個別または全体の稼働状態を設定します。
+
+出力モード:
+  - 出力モードを個別または全体で「配布」「保管」「販売」のいずれかに設定します。
+
+充填量:
+  - 使用しているカテゴリに応じて、個別またはすべての入出力製品の充填量を変更できます。選択内容により、リットルまたはパーセントで入力できます。"/>
+        <text name="easyDevControls_productionPointListHelp" text="マップ上の生産施設一覧と、関連する情報を表示します。"/>
+        <text name="easyDevControls_deliveryMappingHelp" text="配布中のすべての生産施設の現在の配送マッピング情報を表示します。"/>
+        <text name="easyDevControls_productionPointDebugHelp" text="各プレイヤートリガーで生産施設のデバッグ情報を表示します。"/>
+        <text name="easyDevControls_showTestAreasHelp" text="すべての設置物のテストエリアを表示します。"/>
+        <text name="easyDevControls_showPlacementCollisionsHelp" text="設置および地形整地用のコリジョンを表示します。"/>
+        <text name="easyDevControls_removeAllPlaceablesHelp" text="マップ上の通常削除可能な設置物をすべて削除します。"/>
+        <text name="easyDevControls_removeAllMapPlaceablesHelp" text="売買ポイントを含む、マップに固定されたすべての設置物を削除します。"/>
+        <text name="easyDevControls_reloadPlaceableHelp" text="プレイヤーから30メートル以内で最も近い設置物の I3D と XML を再読み込みします。"/>
+        <text name="easyDevControls_reloadAllPlaceablesHelp" text="マップ上のすべての設置物の I3D と XML を再読み込みします。"/>
+
+        <!-- Fields Frame XML -->
+        <text name="easyDevControls_fieldsHeader" text="畑 / 農地"/>
+
+        <text name="easyDevControls_fieldSetFruitTitle" text="作物を設定"/>
+        <text name="easyDevControls_fieldSetGroundTitle" text="畑の地面状態を設定"/>
+        <text name="easyDevControls_fieldIndexTitle" text="畑"/>
+        <text name="easyDevControls_fruitTypeTitle" text="作物"/>
+        <text name="easyDevControls_growthStateTitle" text="成長"/>
+        <text name="easyDevControls_groundLayerTitle" text="地面レイヤー"/>
+        <text name="easyDevControls_fertilizerStateTitle" text="肥料"/>
+        <text name="easyDevControls_plowingStateTitle" text="耕起済み"/>
+        <text name="easyDevControls_weedStateTitle" text="雑草"/>
+        <text name="easyDevControls_herbicideStateTitle" text="除草剤"/>
+        <text name="easyDevControls_limeStateTitle" text="石灰"/>
+        <text name="easyDevControls_stonesStateTitle" text="石"/>
+        <text name="easyDevControls_rollerStateTitle" text="ローラー必要"/>
+        <text name="easyDevControls_stubbleStateTitle" text="刈り株処理済み"/>
+        <text name="easyDevControls_buyFarmlandTitle" text="農地を購入"/>
+        <text name="easyDevControls_groundTypeTitle" text="地面タイプ"/>
+        <text name="easyDevControls_angleTitle" text="角度"/>
+        <text name="easyDevControls_removeFoliageTitle" text="植生を削除"/>
+        <text name="easyDevControls_vineSetStateTitle" text="ブドウの状態を設定"/>
+        <text name="easyDevControls_vineUpdateVisualsTitle" text="ブドウの見た目を更新"/>
+        <text name="easyDevControls_advanceGrowthTitle" text="成長を進める"/>
+        <text name="easyDevControls_setGrowthPeriodTitle" text="成長期間を設定"/>
+        <text name="easyDevControls_farmlandTitle" text="農地"/>
+        <text name="easyDevControls_setFarmlandOwnerTitle" text="農地の所有者を設定"/>
+        <text name="easyDevControls_refreshFieldOverlayTitle" text="PDA 畑オーバーレイ"/>
+        <text name="easyDevControls_addRemoveWeedsStonesTitle" text="石・雑草"/> <!-- &amp;   This is equal to using the & symbol in XML-->
+        <text name="easyDevControls_debugFieldStatusTitle" text="畑の状態をデバッグ表示"/>
+        <text name="easyDevControls_vineSystemDebugTitle" text="ブドウシステムのデバッグ"/>
+        <text name="easyDevControls_stoneSystemDebugTitle" text="畑石のデバッグ"/>
+
+        <!-- Fields Frame Info -->
+        <text name="easyDevControls_setAllFieldSuccessInfo" text="%s 個の畑を正常に更新しました"/>
+        <text name="easyDevControls_setFieldSuccessInfo" text="畑 %s を正常に更新しました"/>
+        <text name="easyDevControls_setFieldFailedInfo" text="畑の更新に失敗しました。"/>
+
+        <text name="easyDevControls_advanceGrowthInfo" text="すべての畑の成長段階を次のステージへ進めました。"/>
+        <text name="easyDevControls_advanceGrowthWarning" text="成長段階の進行は、ゲーム設定「%s」が「No」に設定されている場合のみ利用できます。
+
+の操作を実行するために、現在の設定を'%s'から「No」に変更しますか？"/> <!-- Translators: Space is intentional for easy reading -->
+        <text name="easyDevControls_setGrowthPeriodInfo" text="すべての畑の成長期間を %s（%s）に更新しました。"/>
+        <text name="easyDevControls_setGrowthPeriodWarning" text="成長期間の設定は、ゲーム設定'%s'が'%s'に設定されている場合は利用できません。
+
+この操作を実行するために、設定を「No」に変更しますか？"/> <!-- Translators: Space is intentional for easy reading -->
+        <text name="easyDevControls_addWeedOrStoneDelta" text="%s の増加量を %s 増やしました。"/>
+        <text name="easyDevControls_removeWeedOrStoneDelta" text="%s の増加量を %s 減らしました。"/>
+        <text name="easyDevControls_vineSetStateInfo" text="%s %s のブドウを成長状態 %s に更新しました"/>
+        <text name="easyDevControls_vineUpdateVisualsInfo" text="すべてのブドウの表示を更新しました"/>
+        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="利用可能な農地 %s 件の所有者を農場 %s に更新しました。"/>
+        <text name="easyDevControls_setFarmlandOwnerInfo" text="農地 %s の所有者を農場 %s に更新しました。"/>
+        <text name="easyDevControls_refreshFieldOverlayInfo" text="PDA の畑オーバーレイを更新し、タイマーを %d 秒に設定しています。"/>
+        <text name="easyDevControls_debugFieldStatusInfo" text="畑の状態デバッグを %s にしました。"/>
+        <text name="easyDevControls_vineSystemDebugInfo" text="ブドウシステムのデバッグを %s にしました。"/>
+        <text name="easyDevControls_stoneSystemDebugInfo" text="石システムのデバッグを %s にしました。"/>
+
+        <!-- Fields Frame Help -->
+        <text name="easyDevControls_fieldSetFruitHelp" text="選択した畑、またはすべての畑の作物に対して、以下の変更を行えます。."/>
+        <text name="easyDevControls_fieldSetGroundHelp" text="選択した畑、またはすべての畑の地面に対して、以下の変更を行えます。."/>
+        <text name="easyDevControls_fieldSetWarningHelp" text="重要：畑は基本の畑定義を使用して更新されます。拡張された畑や結合された畑は、無視されるか不完全になる場合があります。."/>
+        <text name="easyDevControls_vineSetStateHelp" text="選択したブドウの種類の成長段階を、マップ全体で調整できます。"/>
+        <text name="easyDevControls_vineUpdateVisualsHelp" text="すべてのブドウの表示を強制的に更新します。"/>
+        <text name="easyDevControls_addRemoveWeedsHelp" text="現在の畑の雑草量を調整します。"/>
+        <text name="easyDevControls_addRemoveStonesHelp" text="現在の畑の石の量を調整します。"/>
+        <text name="easyDevControls_advanceGrowthHelp" text="すべての作物の成長を1段階進めます。"/>
+        <text name="easyDevControls_setGrowthPeriodHelp" text="指定した成長期間に、すべての作物の成長を強制します。"/>
+        <text name="easyDevControls_setFarmlandOwnerHelp" text="農地IDに基づいて、農地の所有者を変更できます。" revision="fs25"/> <!-- TO_DO: Remove ( or 'Field Number') -->
+        <text name="easyDevControls_refreshFieldOverlayHelp" text="マップに表示される畑オーバーレイのデータを強制的に更新します。"/>
+        <text name="easyDevControls_debugFieldStatusHelp" text="指定した半径内のすべての畑の状態データを表示します。"/>
+        <text name="easyDevControls_vineSystemDebugHelp" text="ブドウシステムのデバッグ表示を切り替えます。"/>
+        <text name="easyDevControls_stoneSystemDebugHelp" text="石システムのデバッグ表示を切り替えます。"/>
+
+        <!-- Environment Frame XML -->
+        <text name="easyDevControls_environmentHeader" text="環境"/>
+
+        <text name="easyDevControls_setTimeTitle" text="時間を設定"/>
+        <text name="easyDevControls_reloadedEnvironmentDataTitle" text="環境を再読み込み"/>
+        <text name="easyDevControls_reloadedWeatherDataTitle" text="天候を再読み込み"/>
+        <text name="easyDevControls_setAddWeatherTitle" text="%s の天候"/>
+        <text name="easyDevControls_setAddWeatherHelpTitle" text="天候の設定／追加"/>
+        <text name="easyDevControls_removeTireTracksTitle" text="タイヤ跡を削除"/>
+        <text name="easyDevControls_weatherDebugTitle" text="天候デバッグ"/>
+        <text name="easyDevControls_seasonalShaderDebugTitle" text="季節シェーダーデバッグ"/>
+        <text name="easyDevControls_environmentMaskDebugTitle" text="環境マスクデバッグ"/>
+        <text name="easyDevControls_randomWindWavingTitle" text="ランダムな風による揺れ"/>
+        <text name="easyDevControls_updateSnowTitle" text="雪"/>
+        <text name="easyDevControls_addSnowTitle" text="雪を追加"/>
+        <text name="easyDevControls_setSnowTitle" text="雪を設定"/>
+        <text name="easyDevControls_removeSnowTitle" text="雪を除去"/>
+        <text name="easyDevControls_addSaltTitle" text="塩を追加"/>
+
+        <!-- Environment Frame Info -->
+        <text name="easyDevControls_setTimeInfo" text="時間を次に進めました： %s ｜ %s"/>
+        <text name="easyDevControls_reloadedEnvironmentDataInfo" text="XM'%s'から環境データ全体を再読み込みしました"/>
+        <text name="easyDevControls_reloadedWeatherDataInfo" text="XML'%s'から天候データを再読み込みしました"/>
+        <text name="easyDevControls_removeTireTracksInfo" text="プレイヤー周囲半径 %s 内のすべてのタイヤ跡を削除しました"/>
+        <text name="easyDevControls_removeAllTireTracksInfo" text="マップ上のすべてのタイヤ跡を削除しました"/>
+        <text name="easyDevControls_weatherDebugInfo" text="天候デバッグを %s にしました"/>
+        <text name="easyDevControls_seasonalShaderDebugInfo" text="季節シェーダーデバッグを %s にしました"/>
+        <text name="easyDevControls_environmentMaskDebugInfo" text="環境マスクシステムのデバッグを %s にしました"/>
+        <text name="easyDevControls_randomWindWavingInfo" text="ランダムな風による揺れを %s にしました"/>
+        <text name="easyDevControls_addSnowInfo" text="雪の高さを最大レベルに設定しました"/>
+        <text name="easyDevControls_setSnowInfo" text="雪の高さを %s に変更しました"/>
+        <text name="easyDevControls_removeSnowInfo" text="マップ上の雪をすべて除去しています"/>
+        <text name="easyDevControls_addSaltInfo" text="半径 %d m に塩を散布しています"/>
+
+        <!-- Environment Frame Help -->
+        <text name="easyDevControls_setTimeHelp" text="月・月内の日数・時間単位で時間を進めることができます。
+
+※この処理中は更新リスナーが呼び出されないため、一部の季節変化は日付変更時にのみ発生します。"/> <!-- Translators: Space is intentional for easy reading -->
+        <text name="easyDevControls_reloadedEnvironmentDataHelp" text="XML ファイルから環境全体を再読み込みします。マップテスト時に、ゲームを再起動せずに変更を反映・確認できます。"/>
+
+        <text name="easyDevControls_reloadedWeatherDataHelp" text="XML ファイルから天候のみを再読み込みします。マップテスト時に、ゲームを再起動せずに変更を反映・確認できます。"/>
+        <text name="easyDevControls_setAddWeatherHelp" text="特定の天候タイプを追加、または即座に設定できます。天候の種類や変化は現在の季節に応じて変わります。"/>
+        <text name="easyDevControls_removeTireTracksHelp" text="指定した半径内の地面からタイヤ跡を削除します。"/>
+        <text name="easyDevControls_weatherDebugHelp" text="現在の天候データをグラフで表示します。"/>
+        <text name="easyDevControls_seasonalShaderDebugHelp" text="現在の季節シェーダー（cshared3）のパラメータ値を表示します。"/>
+        <text name="easyDevControls_environmentMaskDebugHelp" text="環境マスクのデバッグ値と状態を表示します。"/>
+        <text name="easyDevControls_randomWindWavingHelp" text="ランダムな風速機能を切り替えます。"/>
+        <text name="easyDevControls_addSnowHelp" text="マップに雪を1層追加します。"/>
+        <text name="easyDevControls_setSnowHelp" text="指定した雪レベルを設定します。範囲：-4 ～ 0.5"/>
+        <text name="easyDevControls_removeSnowHelp" text="マップ上の地面の雪をすべて除去します。"/>
+        <text name="easyDevControls_addSaltHelp" text="プレイヤー周囲の指定半径内に塩を散布します。"/>
+
+        <!-- Permissions Frame XML -->
+        <text name="easyDevControls_permissionsHeader" text="権限"/>
+        <text name="easyDevControls_permissionsToolTip" text="%s 機能にアクセスするために必要な最小プレイヤー権限レベル。"/>
+        <text name="easyDevControls_savingFailed" text="保存に失敗しました！"/>
+
+        <!-- Permissions Frame Help -->
+        <text name="easyDevControls_permissionsHelp" text="このページでは、以下のコマンドにプレイヤーがアクセスするために必要な権限レベルを、管理者が設定できます。"/>
+
+        <!-- Extra Headers -->
+        <text name="easyDevControls_helpHeader" text="ヘルプ"/>
+        <text name="easyDevControls_aboutHeader" text="このMODについて"/>
+
+        <text name="easyDevControls_aboutInfo" text="Easy Development Controls は、MOD 制作者、マップ制作者、コンテンツクリエイター向けのテストツールとして設計されています。また、ゲームプレイ設定の補助など、さまざまな遊び方にも活用できます。
+
+ゲーム内コンソールコマンドですでに利用可能な機能を、簡単に使えるようにしたほか、多くの新しいカスタム機能が追加されています。
+
+ほとんどの機能はマルチプレイに対応しており、一部のコマンドでは権限レベルを調整できます。これには、これまでホストのみ使用可能だった既存のコンソールコマンドも含まれます。
+
+主な便利機能の一例：
+
+ - テレポート：マップ上の地点、畑番号、または X/Z 座標を指定して、プレイヤーや車両を素早く移動できます。
+ - 車両反転：横転した車両を簡単に正しい向きに戻せます。
+ - 超強力：プレイヤーの持ち運び能力と掴める距離を拡張します。
+ - HUD 表示：HUD 全体の表示／非表示を切り替えられ、キー割り当ても設定できます。
+ - ベール位置表示：農場が所有するすべてのベールをマップ上に表示します。
+ - パレット位置表示：農場が所有するすべてのパレットをマップ上に表示します。
+ - 成長促進：すべての作物を次の成長段階へ進めます。
+
+多数の機能に加え、今後も多くの新機能が予定されており、Easy Development Controls はあらゆるプレイヤーに役立つツールです。"/>
+    </texts>
+</l10n>
